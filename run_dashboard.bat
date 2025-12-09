@@ -1,0 +1,6 @@
+@echo off
+REM Clear Streamlit cache and run dashboard
+echo Clearing Streamlit cache...
+rmdir /s /q %USERPROFILE%\.streamlit 2>nul
+echo Starting Smart Finance Dashboard...
+streamlit run dashboards\streamlit_dashboard.py --server.headless true
