@@ -4,6 +4,7 @@ Handles database schema creation and CRUD operations
 """
 import 
 
+
 from psycopg2.extras import RealDictCursor
 import pandas as pd
 from datetime import datetime
@@ -148,6 +149,7 @@ class DatabaseManager:
                 )
             """)
             
+         
             self.conn.commit()
             print("✓ Database schema created successfully")
             return True

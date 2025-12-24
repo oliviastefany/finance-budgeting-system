@@ -25,8 +25,8 @@ from prophet import Prophet
 import warnings
 warnings.filterwarnings('ignore')
 
-# Import authentication
-from auth import check_authentication, logout, get_current_user_id, get_current_user_email, AuthManager
+# Import authentication (support CSV + SQLite + PostgreSQL)
+from auth_sqlite import check_authentication, logout, get_current_user_id, get_current_user_email, AuthManager
 
 # Page configuration
 st.set_page_config(

@@ -48,8 +48,9 @@ env/
 *.ipynb
 
 # Data Files (may contain sensitive user data)
-data/raw/*.csv
-data/processed/*.csv
+# IMPORTANT: Allowing sample data files for demo purposes
+# data/raw/*.csv  <- DISABLED to allow sample data to be committed
+# data/processed/*.csv  <- DISABLED to allow sample data to be committed
 data/*.db
 data/*.sqlite
 data/*.sqlite3

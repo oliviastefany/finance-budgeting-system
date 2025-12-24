@@ -1,252 +1,251 @@
-user_id,name,email,phone,age,location,country,monthly_income,created_date,preferred_currency,credit_score,password_hash
-U00001,Ethan Snyder,hwarren@example.net,719.449.9417,60.0,Surabaya,Indonesia,15000.0,2023-02-02,IDR,820.0,
-U00002,Kathleen Miller,wholland@example.org,556.376.5007x184,64.0,Los Angeles,USA,20000.0,2023-04-26,USD,570.0,
-U00003,Sherry Ochoa,njohnson@example.net,(931)660-4997,60.0,New York,USA,8000.0,2023-04-23,USD,764.0,
-U00004,Ernest Davis,scott85@example.com,(731)694-6030x12482,32.0,Bandung,Indonesia,8000.0,2023-03-13,IDR,637.0,
-U00005,Michael Johnson,bcole@example.org,955.252.9217x22911,57.0,Phoenix,USA,10000.0,2023-09-13,USD,699.0,
-U00006,Erica Roberts,nicole68@example.com,8298633968,23.0,Houston,USA,6000.0,2023-02-26,USD,843.0,
-U00007,Stephanie Smith,kellyking@example.org,001-891-928-0010x7986,23.0,Houston,USA,6000.0,2024-08-03,USD,826.0,
-U00008,Jared Brewer,rivasjohn@example.com,284-533-3391x6923,54.0,Chicago,USA,15000.0,2024-09-04,USD,571.0,
-U00009,Katie Best,mbryant@example.com,730-274-7656,65.0,Bandung,Indonesia,6000.0,2024-04-04,IDR,598.0,
-U00010,Lori Walker,frose@example.org,401-400-7364,48.0,Los Angeles,USA,10000.0,2022-12-13,USD,719.0,
-U00011,Jordan Morrison,deborahschroeder@example.com,443.883.6636,49.0,Surabaya,Indonesia,15000.0,2023-11-18,IDR,820.0,
-U00012,Jennifer Terry,tbailey@example.net,775.381.0291,68.0,Bandung,Indonesia,10000.0,2023-05-08,IDR,604.0,
-U00013,Carlos Burke,jedwards@example.org,001-511-233-6005x085,24.0,Guangzhou,China,3000.0,2024-01-04,CNY,684.0,
-U00014,Kevin Kelley,sarastanley@example.org,4636720111,42.0,Los Angeles,USA,5000.0,2023-10-21,USD,716.0,
-U00015,Wesley Curtis,ashleycarter@example.com,+1-273-225-1389x272,39.0,Jakarta,Indonesia,10000.0,2024-03-17,IDR,638.0,
-U00016,Kristina Young,brian95@example.net,+1-366-624-8851,35.0,Beijing,China,6000.0,2024-02-18,CNY,814.0,
-U00017,Ashley Wyatt,nicole35@example.net,533.473.4784,47.0,New York,USA,20000.0,2023-03-10,USD,641.0,
-U00018,Kimberly Weiss,dunlapjustin@example.com,001-899-989-2669,68.0,New York,USA,15000.0,2023-09-29,USD,813.0,
-U00019,Anthony King,pmartin@example.net,001-449-330-3011x4376,68.0,Los Angeles,USA,10000.0,2023-11-15,USD,755.0,
-U00020,Shannon Brown,valeriemonroe@example.com,(302)898-3267x70653,38.0,Houston,USA,10000.0,2023-10-10,USD,599.0,
-U00021,Jamie Skinner,ryan70@example.com,772.859.5166,61.0,Houston,USA,15000.0,2024-06-07,USD,551.0,
-U00022,Guy Rodgers,ramosloretta@example.org,+1-529-613-9594x23621,27.0,Guangzhou,China,4000.0,2024-06-10,CNY,655.0,
-U00023,Amy Mendoza,cheryl00@example.org,929-765-1013,25.0,Jakarta,Indonesia,4000.0,2023-08-29,IDR,740.0,
-U00024,Christina Brady,castillolauren@example.com,249-764-7780,39.0,New York,USA,6000.0,2024-01-08,USD,593.0,
-U00025,Kimberly Chapman,alexander40@example.org,771.963.7677,55.0,Guangzhou,China,8000.0,2023-02-28,CNY,819.0,
-U00026,Jeff Heath,mjohnson@example.net,(836)794-3544x64543,52.0,Houston,USA,15000.0,2023-02-21,USD,739.0,
-U00027,Travis Robinson,bowmanstephanie@example.net,001-846-914-8372x820,61.0,Bandung,Indonesia,20000.0,2024-07-08,IDR,757.0,
-U00028,Marvin Wang,ddavis@example.net,218.600.5203,66.0,Surabaya,Indonesia,8000.0,2022-11-29,IDR,602.0,
-U00029,Tyler Wilkinson,paul70@example.net,(807)680-0582x2018,45.0,Bandung,Indonesia,8000.0,2024-07-27,IDR,766.0,
-U00030,Debra Brown,whernandez@example.com,001-963-849-0708x9709,66.0,Guangzhou,China,6000.0,2024-07-22,CNY,706.0,
-U00031,Garrett Porter DDS,tuckerjulia@example.net,001-542-443-9937,36.0,Beijing,China,5000.0,2024-09-01,CNY,614.0,
-U00032,Kelly Castaneda,rhondagray@example.net,615-671-4547x5573,46.0,Houston,USA,6000.0,2024-09-12,USD,678.0,
-U00033,Ronald Taylor MD,tammy23@example.com,+1-733-873-8608x10378,65.0,Shanghai,China,10000.0,2023-09-04,CNY,630.0,
-U00034,Zoe Rivas,brent39@example.com,4725909071,29.0,Jakarta,Indonesia,5000.0,2022-12-26,IDR,838.0,
-U00035,Ryan Morales,fritzjoel@example.com,+1-547-666-2732x25341,26.0,Phoenix,USA,4000.0,2024-02-16,USD,780.0,
-U00036,Scott Hernandez,michelle30@example.com,(961)982-9718x24900,62.0,New York,USA,15000.0,2022-12-10,USD,684.0,
-U00037,Monica Schmitt,umiller@example.com,(250)793-6655x2389,30.0,Chicago,USA,10000.0,2023-08-17,USD,817.0,
-U00038,John Anderson,brenda54@example.org,568.453.8249,55.0,Bandung,Indonesia,6000.0,2024-07-01,IDR,597.0,
-U00039,Nathan Thomas,mortega@example.net,001-394-542-7793,44.0,Beijing,China,6000.0,2023-03-22,CNY,765.0,
-U00040,Christy Baker,olsonmichael@example.org,835.651.4880,58.0,Philadelphia,USA,10000.0,2024-01-08,USD,721.0,
-U00041,Jody Gonzales,holdenmichele@example.org,001-832-403-7049x37727,61.0,Phoenix,USA,10000.0,2023-09-25,USD,584.0,
-U00042,Christopher Dixon,mroberts@example.org,(334)792-3404,22.0,Chicago,USA,5000.0,2023-10-15,USD,650.0,
-U00043,Ashley Cook,margaretchavez@example.org,(316)499-6613x0610,68.0,Houston,USA,10000.0,2023-08-23,USD,806.0,
-U00044,Patricia Clark,amberalvarado@example.org,+1-550-548-4367x1210,26.0,Philadelphia,USA,4000.0,2023-12-21,USD,804.0,
-U00045,Andrea Ramirez,stevenleach@example.org,481.615.4397x0021,35.0,Los Angeles,USA,8000.0,2023-03-31,USD,832.0,
-U00046,George Bennett,orrsarah@example.org,848.346.2696x105,30.0,Los Angeles,USA,8000.0,2024-04-28,USD,564.0,
-U00047,Mary Holden,kirbytodd@example.net,(361)892-8383,47.0,Beijing,China,8000.0,2024-02-12,CNY,728.0,
-U00048,Michelle Meyers,blyons@example.com,245-421-7590,53.0,Los Angeles,USA,6000.0,2022-11-28,USD,601.0,
-U00049,Amy Mclaughlin,fcarrillo@example.com,544-273-0660,53.0,Philadelphia,USA,15000.0,2023-12-20,USD,771.0,
-U00050,John Fitzgerald,xmorris@example.net,2124976671,58.0,Philadelphia,USA,20000.0,2024-09-23,USD,692.0,
-U00051,Kimberly Ortiz,anita18@example.org,708.688.2032,64.0,Jakarta,Indonesia,20000.0,2023-08-14,IDR,585.0,
-U00052,Jessica Jones,jeanfields@example.net,735-457-5526x3846,34.0,Phoenix,USA,10000.0,2023-02-23,USD,736.0,
-U00053,Mrs. Tanya Vasquez,yjimenez@example.com,(806)772-9448,43.0,New York,USA,10000.0,2023-12-21,USD,615.0,
-U00054,Adam Smith,jacquelinemurphy@example.net,553-400-9168x9731,63.0,Bandung,Indonesia,20000.0,2023-02-23,IDR,611.0,
-U00055,Henry Nguyen DVM,ccruz@example.com,001-361-997-5548,27.0,Shanghai,China,6000.0,2023-10-14,CNY,577.0,
-U00056,Edward Anderson,sarahadams@example.com,+1-335-629-7654x55930,65.0,Guangzhou,China,15000.0,2024-08-03,CNY,835.0,
-U00057,Robert Stanley,thompsontyler@example.org,836.989.9921x5806,32.0,Los Angeles,USA,10000.0,2023-04-25,USD,780.0,
-U00058,Alexandra Taylor,ryanstewart@example.net,244.729.9442x092,54.0,Beijing,China,6000.0,2023-04-12,CNY,832.0,
-U00059,Tyler Garcia,brownkaren@example.org,001-612-955-9029,34.0,Los Angeles,USA,5000.0,2023-08-28,USD,808.0,
-U00060,Christopher Ibarra,sampsonkayla@example.org,001-787-737-2385x664,60.0,Guangzhou,China,10000.0,2023-04-30,CNY,686.0,
-U00061,Joseph Robinson,qgordon@example.net,6849027546,58.0,Phoenix,USA,6000.0,2023-08-24,USD,783.0,
-U00062,Patricia Jones,rachaelochoa@example.net,6585360878,65.0,Surabaya,Indonesia,10000.0,2023-06-09,IDR,709.0,
-U00063,Austin Phillips,fmorgan@example.com,838.941.3207,53.0,Jakarta,Indonesia,6000.0,2024-04-14,IDR,729.0,
-U00064,Colin Baldwin,jessicamiller@example.com,638-287-1435x84481,33.0,Philadelphia,USA,6000.0,2024-02-19,USD,844.0,
-U00065,Michelle Tran,richardsonsheila@example.com,581-331-7279x369,23.0,Jakarta,Indonesia,5000.0,2024-08-05,IDR,662.0,
-U00066,Christopher Porter,andreapatton@example.com,(992)447-2197,58.0,Houston,USA,6000.0,2024-09-13,USD,630.0,
-U00067,Austin Clay,bsimmons@example.org,+1-451-581-5890x3541,23.0,Bandung,Indonesia,4000.0,2024-02-04,IDR,769.0,
-U00068,Aaron Wong,jill35@example.org,(810)464-5816x30479,44.0,Los Angeles,USA,5000.0,2023-05-30,USD,773.0,
-U00069,Sandra Dominguez,alyssa88@example.com,+1-806-791-8940,54.0,New York,USA,6000.0,2023-02-07,USD,675.0,
-U00070,Karen Romero,brownkathleen@example.com,001-994-316-4602x904,23.0,Surabaya,Indonesia,3000.0,2024-01-03,IDR,721.0,
-U00071,Jessica Clark,shawnpeters@example.com,980-762-4010,47.0,Houston,USA,15000.0,2023-02-17,USD,752.0,
-U00072,Stephanie Ferguson,bakerkathryn@example.net,836-223-1029,38.0,Phoenix,USA,8000.0,2023-01-26,USD,843.0,
-U00073,Laura French,michelebeard@example.net,+1-258-813-2919x7842,45.0,Los Angeles,USA,20000.0,2024-10-29,USD,647.0,
-U00074,Elizabeth Strickland,curtisevans@example.com,830-903-4584,27.0,Houston,USA,4000.0,2023-03-15,USD,789.0,
-U00075,Jose Lewis,hollowayjean@example.net,749-642-4309,37.0,Los Angeles,USA,5000.0,2023-11-13,USD,750.0,
-U00076,April King,hbarnes@example.net,5258035175,27.0,Beijing,China,6000.0,2024-01-11,CNY,808.0,
-U00077,Linda Smith,hcook@example.org,(423)821-1981x74489,41.0,Phoenix,USA,10000.0,2023-06-10,USD,696.0,
-U00078,Erin Hernandez,briannacollins@example.net,+1-903-212-1454,41.0,Shanghai,China,10000.0,2023-10-10,CNY,748.0,
-U00079,Lori Sanders,cantujoshua@example.net,(762)815-4939x4103,62.0,Surabaya,Indonesia,6000.0,2022-12-29,IDR,677.0,
-U00080,April Murphy,bvega@example.net,312-450-7793x8975,60.0,Philadelphia,USA,8000.0,2023-07-01,USD,678.0,
-U00081,Yolanda Melton,danielmcdonald@example.net,(775)717-1631,32.0,Chicago,USA,10000.0,2023-09-24,USD,700.0,
-U00082,Richard Andrews,danielssteven@example.com,(544)933-8645,52.0,Philadelphia,USA,8000.0,2024-02-10,USD,648.0,
-U00083,John Smith,meghanporter@example.com,001-639-915-2118x287,28.0,Philadelphia,USA,6000.0,2024-11-16,USD,693.0,
-U00084,Janet Randall,charleslee@example.net,(632)671-7123,47.0,Houston,USA,6000.0,2024-09-07,USD,609.0,
-U00085,Kelsey Price,dpadilla@example.org,696-547-6678x039,23.0,Surabaya,Indonesia,3000.0,2023-11-02,IDR,803.0,
-U00086,Christopher Miller,ccruz@example.com,+1-631-433-4050x1392,33.0,Phoenix,USA,5000.0,2023-08-03,USD,586.0,
-U00087,Charles Gray,pwagner@example.net,+1-710-597-7130x239,53.0,Bandung,Indonesia,10000.0,2024-01-16,IDR,558.0,
-U00088,Edward Taylor,cathy72@example.net,001-265-540-3612x36588,62.0,Surabaya,Indonesia,10000.0,2023-02-26,IDR,696.0,
-U00089,Katherine Watson,emily08@example.com,(397)605-4965,69.0,Surabaya,Indonesia,10000.0,2024-01-07,IDR,701.0,
-U00090,Francis Trevino,shannonedward@example.org,001-433-610-7252,54.0,Los Angeles,USA,15000.0,2023-11-04,USD,624.0,
-U00091,Beverly Gilmore,ksmith@example.com,(761)965-7834x077,29.0,Jakarta,Indonesia,6000.0,2024-09-10,IDR,653.0,
-U00092,Kevin Wolfe,stacey60@example.com,+1-871-719-6662x8431,41.0,Surabaya,Indonesia,6000.0,2024-10-15,IDR,776.0,
-U00093,Joseph Sanchez,michaelcharles@example.com,817-270-3332x4872,69.0,Chicago,USA,6000.0,2024-09-13,USD,648.0,
-U00094,Brett Wilkinson,mrodgers@example.com,001-369-621-8325x8035,46.0,Guangzhou,China,20000.0,2024-11-10,CNY,743.0,
-U00095,Rebecca Williams,jimmy46@example.net,209.563.0071,56.0,Bandung,Indonesia,20000.0,2023-02-17,IDR,718.0,
-U00096,Kathleen Smith,moorejoshua@example.net,339-771-0814,57.0,Houston,USA,6000.0,2023-11-22,USD,617.0,
-U00097,Sonya Smith,julia31@example.com,761.811.2346x2645,54.0,Chicago,USA,20000.0,2023-04-20,USD,684.0,
-U00098,Maria Shaw,craigwhitaker@example.net,6293734399,24.0,Shanghai,China,3000.0,2022-12-13,CNY,677.0,
-U00099,Ryan Rivera,dtaylor@example.org,(963)603-8684x22436,54.0,Beijing,China,15000.0,2024-09-11,CNY,571.0,
-U00100,Daniel Calderon,michelle08@example.org,(426)960-0037x6679,67.0,Phoenix,USA,20000.0,2024-03-19,USD,600.0,
-U00101,Donald Evans,xosborne@example.org,001-613-500-7435x690,29.0,Surabaya,Indonesia,5000.0,2024-04-09,IDR,576.0,
-U00102,Valerie Williams,smithmatthew@example.org,3565663888,55.0,Bandung,Indonesia,20000.0,2023-01-30,IDR,835.0,
-U00103,Eric Gomez,buchananautumn@example.com,+1-387-936-0657x89493,54.0,Guangzhou,China,15000.0,2024-09-08,CNY,696.0,
-U00104,Michael Rodriguez,patrickroberts@example.org,001-744-244-2069x455,25.0,Houston,USA,5000.0,2024-06-25,USD,741.0,
-U00105,Jorge Thornton,colemanrobert@example.net,516-762-6032x02127,38.0,Surabaya,Indonesia,10000.0,2023-09-18,IDR,769.0,
-U00106,Charles Hernandez,marilynmyers@example.com,653-269-0911x954,51.0,Philadelphia,USA,20000.0,2023-01-22,USD,595.0,
-U00107,Meredith Harvey,hollygiles@example.net,+1-497-770-3511x08903,27.0,New York,USA,5000.0,2024-02-16,USD,782.0,
-U00108,Kristen Crawford,joshuagalvan@example.org,684-365-7521x16461,58.0,Houston,USA,20000.0,2023-05-02,USD,730.0,
-U00109,Luke Johnson,xsanchez@example.org,001-384-745-2858x976,52.0,New York,USA,10000.0,2024-06-12,USD,737.0,
-U00110,Aaron Gordon,cvazquez@example.net,350.709.7013,54.0,Philadelphia,USA,15000.0,2023-07-03,USD,740.0,
-U00111,Briana Green,carrie61@example.net,001-258-302-7080x39830,42.0,Beijing,China,10000.0,2022-12-04,CNY,710.0,
-U00112,Nathaniel Payne,robertdavis@example.com,3695595465,24.0,Phoenix,USA,6000.0,2023-12-11,USD,567.0,
-U00113,Jeffrey Thomas,campbellrebecca@example.org,353-633-7763,46.0,Los Angeles,USA,8000.0,2023-03-19,USD,772.0,
-U00114,Tracy Key,thompsonvictoria@example.org,+1-790-700-5227x4573,24.0,Houston,USA,6000.0,2023-12-31,USD,723.0,
-U00115,Mathew Bowman,jrichards@example.org,+1-345-647-3009,45.0,Jakarta,Indonesia,8000.0,2024-10-11,IDR,837.0,
-U00116,Jason Wright,mcasey@example.com,(793)919-6274,68.0,Bandung,Indonesia,8000.0,2023-06-18,IDR,676.0,
-U00117,Stephanie Howard MD,brownpaul@example.net,+1-824-319-9140x05937,48.0,Philadelphia,USA,8000.0,2024-02-16,USD,822.0,
-U00118,Erica Norris,randy10@example.net,896-891-2115x347,61.0,Houston,USA,6000.0,2023-02-28,USD,848.0,
-U00119,Michelle Johnson,jamie57@example.org,(355)261-9830x59357,69.0,Surabaya,Indonesia,20000.0,2024-08-20,IDR,719.0,
-U00120,Vincent Palmer,cranewilliam@example.org,001-382-229-5727,47.0,Shanghai,China,10000.0,2023-06-19,CNY,562.0,
-U00121,David Jackson,danabrown@example.com,883.949.0118,28.0,Beijing,China,3000.0,2024-07-25,CNY,585.0,
-U00122,Stephanie Rasmussen,rodriguezscott@example.net,244-223-6905x828,66.0,Surabaya,Indonesia,15000.0,2023-10-24,IDR,813.0,
-U00123,Jeremy Hernandez PhD,mitchellbrooks@example.net,275.475.2797,67.0,Shanghai,China,15000.0,2024-05-11,CNY,692.0,
-U00124,Anna Fisher,jonesmakayla@example.org,(704)960-7567x96793,49.0,Chicago,USA,8000.0,2024-11-04,USD,837.0,
-U00125,Jodi Rice,egarrett@example.com,696-273-1114,44.0,Phoenix,USA,8000.0,2023-08-11,USD,600.0,
-U00126,Shaun Dodson,tyler04@example.org,645.268.7953x81017,46.0,Chicago,USA,8000.0,2023-11-20,USD,612.0,
-U00127,Allison Whitehead,reyeskristin@example.org,001-643-226-7341x824,43.0,Houston,USA,6000.0,2023-09-06,USD,607.0,
-U00128,Timothy Stephens,nathan30@example.com,001-250-739-7743x69564,43.0,Bandung,Indonesia,5000.0,2024-06-05,IDR,729.0,
-U00129,Donald Boyd,ryan70@example.org,430-567-8242x7012,63.0,Guangzhou,China,10000.0,2024-08-04,CNY,650.0,
-U00130,Sara Carpenter,andrew90@example.net,+1-354-537-2635x957,54.0,Guangzhou,China,20000.0,2024-02-28,CNY,609.0,
-U00131,Jennifer Anderson MD,patrick19@example.org,290.559.0716x2237,65.0,Phoenix,USA,15000.0,2023-11-10,USD,554.0,
-U00132,David Miller,jason71@example.org,843-826-8828,60.0,Bandung,Indonesia,15000.0,2024-05-19,IDR,811.0,
-U00133,Christopher Mercado,pamelabarnes@example.com,919.206.9860x0156,66.0,Jakarta,Indonesia,15000.0,2024-06-13,IDR,596.0,
-U00134,James Vasquez,pricebrian@example.org,5653034806,56.0,Beijing,China,15000.0,2024-10-11,CNY,693.0,
-U00135,Katherine Lee DDS,wilsonkeith@example.net,375.841.8557,34.0,Jakarta,Indonesia,6000.0,2024-11-09,IDR,673.0,
-U00136,Catherine Randolph,randolphnatalie@example.org,665.213.6459x17849,63.0,Beijing,China,10000.0,2023-02-19,CNY,694.0,
-U00137,David Rogers,letricia@example.com,001-334-932-0174x47542,40.0,Philadelphia,USA,10000.0,2023-05-21,USD,607.0,
-U00138,Dan Bowman,thomaschristopher@example.org,307.267.8421,47.0,Houston,USA,20000.0,2023-10-18,USD,666.0,
-U00139,Rebecca Humphrey,jeffrey80@example.net,(624)730-2958x32871,44.0,Chicago,USA,8000.0,2023-08-06,USD,678.0,
-U00140,Becky Miller,rodriguezangela@example.org,831.259.8752x322,22.0,Guangzhou,China,5000.0,2024-01-15,CNY,839.0,
-U00141,Austin Miller,matthewsantiago@example.net,(847)202-8941,53.0,Shanghai,China,6000.0,2024-10-29,CNY,786.0,
-U00142,Caleb Turner,nabbott@example.com,+1-491-392-0134,22.0,Los Angeles,USA,6000.0,2023-11-01,USD,738.0,
-U00143,Luis Herman,darleneallen@example.net,001-377-500-1636x721,60.0,New York,USA,20000.0,2024-11-22,USD,827.0,
-U00144,Christina Wolfe,williamswendy@example.org,211.997.3761x29534,50.0,Los Angeles,USA,10000.0,2023-08-25,USD,625.0,
-U00145,Connie Smith,brandyevans@example.org,4789175573,47.0,Chicago,USA,10000.0,2024-07-28,USD,635.0,
-U00146,Brenda Bell,davisbarbara@example.net,879.308.5217,50.0,Surabaya,Indonesia,15000.0,2023-08-16,IDR,618.0,
-U00147,David Sellers,wesleyalexander@example.com,(840)230-8489x370,68.0,Chicago,USA,6000.0,2024-11-03,USD,643.0,
-U00148,Alexander Baker,holly60@example.org,+1-969-716-0883x8743,67.0,Surabaya,Indonesia,15000.0,2024-10-24,IDR,753.0,
-U00149,Julia Hopkins,nbell@example.com,689.835.9498x657,37.0,Beijing,China,6000.0,2023-01-03,CNY,588.0,
-U00150,Monica Castillo,jmontgomery@example.net,923.268.4189,57.0,Jakarta,Indonesia,6000.0,2023-05-22,IDR,803.0,
-U00151,Tracey Travis,zmontoya@example.org,3406897782,51.0,Los Angeles,USA,20000.0,2024-02-03,USD,572.0,
-U00152,Kevin Carpenter,lauren88@example.org,552-705-3681x48116,31.0,Beijing,China,6000.0,2024-07-25,CNY,649.0,
-U00153,Stephanie Gross MD,omorrison@example.net,5996011021,55.0,Beijing,China,15000.0,2024-09-24,CNY,772.0,
-U00154,Michael Fields,rmills@example.com,(511)305-9822x82456,31.0,Jakarta,Indonesia,6000.0,2024-01-05,IDR,696.0,
-U00155,William Garcia,imason@example.com,212.352.3397x969,53.0,Shanghai,China,6000.0,2023-09-06,CNY,553.0,
-U00156,Nicole Ellis,christopher05@example.com,(386)654-2598x634,37.0,Guangzhou,China,10000.0,2024-02-03,CNY,796.0,
-U00157,Cody Thomas,sanchezchase@example.net,922-753-1369,23.0,Phoenix,USA,3000.0,2022-12-23,USD,709.0,
-U00158,Karen Murphy,qnguyen@example.com,(618)949-6462,48.0,Guangzhou,China,15000.0,2024-10-28,CNY,701.0,
-U00159,Kimberly Jackson,danielle50@example.net,918-904-7973x8473,33.0,New York,USA,6000.0,2024-11-11,USD,712.0,
-U00160,Terry Arnold,mrodriguez@example.net,(917)308-1516,54.0,Surabaya,Indonesia,6000.0,2024-04-29,IDR,728.0,
-U00161,Paul Clark,tashagonzales@example.net,2713805613,64.0,Bandung,Indonesia,20000.0,2024-04-13,IDR,817.0,
-U00162,Scott Bates,luis23@example.com,712.550.4638x5513,24.0,Los Angeles,USA,3000.0,2024-02-27,USD,717.0,
-U00163,Mr. Lucas Herrera MD,donnarobles@example.net,001-420-555-2313x982,31.0,Surabaya,Indonesia,8000.0,2023-11-23,IDR,593.0,
-U00164,John Baker,nkim@example.net,001-606-265-6029x07816,50.0,Guangzhou,China,20000.0,2024-05-13,CNY,561.0,
-U00165,Nicholas Kim,cathy23@example.net,(771)531-8836,52.0,Phoenix,USA,8000.0,2022-12-18,USD,802.0,
-U00166,Sarah Ward,sandra29@example.com,+1-552-394-6434x2195,56.0,Surabaya,Indonesia,6000.0,2024-08-20,IDR,639.0,
-U00167,Todd Murray,nrandolph@example.net,(847)282-2638,29.0,Philadelphia,USA,3000.0,2024-03-10,USD,639.0,
-U00168,Christopher Schwartz,mirandadaniel@example.org,+1-493-985-0638x94792,55.0,Los Angeles,USA,10000.0,2023-07-15,USD,654.0,
-U00169,Patricia Robertson,sandrajames@example.com,994-260-2607x34146,28.0,Phoenix,USA,6000.0,2023-11-15,USD,663.0,
-U00170,John Lang,ryananderson@example.com,555-330-8842,66.0,Beijing,China,10000.0,2023-01-05,CNY,766.0,
-U00171,James Bowers,james62@example.net,(960)320-4730x0976,42.0,Chicago,USA,5000.0,2023-11-09,USD,798.0,
-U00172,Laura Joseph MD,brooke80@example.org,+1-271-896-6403x299,57.0,Shanghai,China,8000.0,2024-03-01,CNY,741.0,
-U00173,Alex Kelly,carolyn16@example.org,(739)990-3790x0204,56.0,New York,USA,6000.0,2024-06-27,USD,648.0,
-U00174,Erica Carter,tony82@example.org,747-201-5252x20146,69.0,Bandung,Indonesia,15000.0,2023-10-24,IDR,645.0,
-U00175,Rachel Simpson,melissa05@example.org,400-870-8141x439,45.0,Bandung,Indonesia,20000.0,2023-12-11,IDR,817.0,
-U00176,Jennifer Taylor,george06@example.net,2227389375,34.0,Phoenix,USA,8000.0,2023-09-12,USD,766.0,
-U00177,Laura Brown,davisjohn@example.com,675-232-1279,56.0,Guangzhou,China,6000.0,2024-10-13,CNY,835.0,
-U00178,Joshua Mathews,theresa87@example.com,(745)320-1125,38.0,Chicago,USA,5000.0,2023-12-26,USD,611.0,
-U00179,Marcus Pena,johnsoncindy@example.net,428-688-5271x597,41.0,Guangzhou,China,10000.0,2023-08-19,CNY,766.0,
-U00180,Debra Patterson,robertskayla@example.net,434-984-2204x0484,43.0,Los Angeles,USA,5000.0,2023-07-31,USD,736.0,
-U00181,Sarah Williams,ahowell@example.com,227-214-2496x615,40.0,Surabaya,Indonesia,5000.0,2022-12-31,IDR,649.0,
-U00182,Donald Haynes,lanekristen@example.net,+1-418-313-3460x309,33.0,Phoenix,USA,5000.0,2023-05-30,USD,782.0,
-U00183,Tiffany Aguirre,cphillips@example.net,836-369-4516x1372,40.0,Surabaya,Indonesia,10000.0,2023-04-19,IDR,814.0,
-U00184,James Rhodes,smithtammy@example.com,001-657-229-1229x8859,28.0,Guangzhou,China,6000.0,2024-09-07,CNY,755.0,
-U00185,Joan Snyder,ywilliamson@example.com,(355)343-7072,52.0,Jakarta,Indonesia,15000.0,2023-12-27,IDR,693.0,
-U00186,Diana Hardy,michael54@example.com,001-876-854-5562x54104,26.0,Houston,USA,5000.0,2022-12-16,USD,574.0,
-U00187,Carl Ortiz,feliciadavis@example.net,425.267.0308,42.0,Chicago,USA,10000.0,2024-10-09,USD,602.0,
-U00188,Scott James,priscillagomez@example.org,(241)980-2915x7469,44.0,Philadelphia,USA,10000.0,2023-05-25,USD,606.0,
-U00189,Daniel Molina,lmiller@example.net,(448)645-2671x9208,60.0,Chicago,USA,20000.0,2023-02-16,USD,730.0,
-U00190,Shannon Griffin,nealjennifer@example.net,001-431-242-7815x8789,63.0,Guangzhou,China,8000.0,2023-06-07,CNY,772.0,
-U00191,Joshua Garcia,wwillis@example.net,820-455-2788x740,26.0,Guangzhou,China,5000.0,2024-09-01,CNY,764.0,
-U00192,John Mendoza,mwhitehead@example.com,+1-857-252-7092x46470,50.0,New York,USA,10000.0,2023-03-14,USD,695.0,
-U00193,Robert Morris,rhonda66@example.net,(877)877-0820,68.0,Jakarta,Indonesia,15000.0,2023-09-28,IDR,558.0,
-U00194,Brenda Dixon,michael67@example.net,(956)663-4700,31.0,Philadelphia,USA,6000.0,2023-02-03,USD,802.0,
-U00195,Brenda Harris,ytownsend@example.com,(929)589-5305x217,59.0,Shanghai,China,20000.0,2024-06-06,CNY,717.0,
-U00196,Alicia Alvarez,lopezchristine@example.com,9326674613,63.0,New York,USA,6000.0,2024-10-10,USD,832.0,
-U00197,Gordon Cruz,michaelflores@example.net,875-940-1971,23.0,Los Angeles,USA,3000.0,2024-08-22,USD,578.0,
-U00198,Maria Carroll,agarza@example.net,001-616-419-9636,58.0,Philadelphia,USA,10000.0,2024-10-21,USD,685.0,
-U00199,Sharon Dunn,brooksdustin@example.org,778-737-1297,69.0,Phoenix,USA,20000.0,2023-02-14,USD,694.0,
-U00200,Alison Freeman,morrisonchristina@example.com,+1-372-431-8583x82515,28.0,Houston,USA,3000.0,2024-11-15,USD,681.0,
-U00201,Megan Cole,charlesross@example.com,324-880-8518x484,57.0,New York,USA,15000.0,2023-07-04,USD,824.0,
-U00202,Alexandria Brock,farleylinda@example.net,4503426589,65.0,Houston,USA,10000.0,2023-06-16,USD,751.0,
-U00203,Stephen Hubbard,tamara39@example.com,+1-516-690-0537x180,47.0,Jakarta,Indonesia,10000.0,2023-10-10,IDR,588.0,
-U00204,Diana Wang,rowlandmelinda@example.com,(441)509-6442x77451,24.0,Los Angeles,USA,3000.0,2024-07-10,USD,690.0,
-U00205,Nathan Carter,allison19@example.com,234.434.9175x512,49.0,Los Angeles,USA,8000.0,2023-03-03,USD,697.0,
-U00206,Courtney Blair,joseph97@example.net,989.790.7985x641,49.0,Bandung,Indonesia,20000.0,2024-09-28,IDR,550.0,
-U00207,Charles White,davismark@example.net,+1-936-510-7653,24.0,Shanghai,China,3000.0,2022-12-17,CNY,739.0,
-U00208,Leroy Clark,hansenjennifer@example.net,221.632.5574,46.0,Los Angeles,USA,6000.0,2024-02-26,USD,666.0,
-U00209,George Hurst,glasskathleen@example.com,7894181728,27.0,Guangzhou,China,4000.0,2023-12-08,CNY,593.0,
-U00210,Theodore Mays,roweronald@example.org,+1-880-221-1178x6302,66.0,Chicago,USA,20000.0,2023-09-16,USD,698.0,
-U00211,Amanda Johnson,hermancindy@example.com,968.614.6391,37.0,Chicago,USA,6000.0,2024-02-23,USD,762.0,
-U00212,Patrick Hogan,garnernoah@example.org,001-504-750-9906,32.0,Surabaya,Indonesia,10000.0,2024-09-09,IDR,778.0,
-U00213,Luis Jackson,jmatthews@example.net,001-566-608-6078,57.0,Shanghai,China,10000.0,2023-06-03,CNY,696.0,
-U00214,Ms. Megan Mercado,stacystewart@example.com,348-783-6785,41.0,Guangzhou,China,5000.0,2023-01-24,CNY,596.0,
-U00215,Meghan Davis,scottross@example.org,201-454-0873x9769,62.0,Chicago,USA,6000.0,2024-01-14,USD,563.0,
-U00216,Alexandra Bailey,billy13@example.com,(777)865-0296x67160,36.0,Phoenix,USA,8000.0,2023-07-26,USD,550.0,
-U00217,Lisa Sanchez,kphillips@example.org,+1-712-771-0183x8013,24.0,Guangzhou,China,6000.0,2023-09-16,CNY,561.0,
-U00218,Richard Bolton,myerswilliam@example.org,001-483-277-4564,31.0,Jakarta,Indonesia,10000.0,2024-05-28,IDR,821.0,
-U00219,Linda Butler,stephen04@example.net,940-944-1583,29.0,Beijing,China,4000.0,2023-09-19,CNY,705.0,
-U00220,John Hancock,tranjonathan@example.org,408.325.6981,29.0,Houston,USA,4000.0,2024-07-25,USD,713.0,
-U00221,Erin Brown,greenabigail@example.org,+1-344-200-5526x4226,47.0,Guangzhou,China,8000.0,2024-05-18,CNY,727.0,
-U00222,Derek Marshall,patriciasullivan@example.com,273-292-3070x2580,49.0,Bandung,Indonesia,15000.0,2023-05-16,IDR,590.0,
-U00223,Luke Carter,jacqueline36@example.com,724-653-4695x447,57.0,Bandung,Indonesia,10000.0,2023-07-30,IDR,694.0,
-U00224,David Patel,robertsrebecca@example.org,706-991-5934x70570,30.0,Houston,USA,5000.0,2024-05-30,USD,761.0,
-U00225,Robyn Gomez,samantha71@example.com,(884)302-8958,34.0,Bandung,Indonesia,10000.0,2023-07-18,IDR,789.0,
-U00226,Christine Johnson,kevinbennett@example.net,472-373-8718x60646,50.0,Phoenix,USA,20000.0,2023-03-08,USD,595.0,
-U00227,Jason Morgan,ryan01@example.org,781-294-3667x5857,56.0,Beijing,China,20000.0,2022-12-18,CNY,631.0,
-U00228,Diana Grant,molly39@example.net,8018706672,26.0,Surabaya,Indonesia,5000.0,2022-11-27,IDR,559.0,
-U00229,Courtney Jacobson,bjohnson@example.org,+1-274-649-8934x08853,51.0,Surabaya,Indonesia,8000.0,2023-06-18,IDR,800.0,
-U00230,Ronnie Davidson,cporter@example.net,228-598-1080x295,66.0,Philadelphia,USA,20000.0,2024-02-23,USD,668.0,
-U00231,Miguel Dominguez,justin71@example.net,587.827.3577x41721,54.0,Shanghai,China,6000.0,2024-10-21,CNY,695.0,
-U00232,Michael Sparks,donaldmoses@example.com,(465)243-0728x0899,53.0,Guangzhou,China,6000.0,2023-08-04,CNY,816.0,
-U00233,Michele Gallegos,gschaefer@example.com,001-459-529-6131x02474,42.0,Shanghai,China,6000.0,2023-07-26,CNY,612.0,
-U00234,Amber Harper,hughesjeffery@example.com,(912)542-7932,46.0,Los Angeles,USA,10000.0,2022-12-24,USD,832.0,
-U00235,Cameron Rollins,mooretodd@example.net,517.479.9932x814,34.0,Houston,USA,5000.0,2024-10-01,USD,647.0,
-U00236,Carol Horn,brittany45@example.com,(547)392-7688x7451,62.0,Houston,USA,10000.0,2024-06-27,USD,555.0,
-U00237,Joshua Dawson,brownhector@example.com,(708)480-9638x185,49.0,Los Angeles,USA,6000.0,2023-02-01,USD,746.0,
-U00238,Loretta Ray,sgarrison@example.net,5487792495,52.0,Philadelphia,USA,20000.0,2024-04-19,USD,808.0,
-U00239,Christopher Mendez,ellislisa@example.com,292-833-7448,44.0,New York,USA,5000.0,2024-11-15,USD,602.0,
-U00240,Claudia Schmidt,douglasrobbins@example.net,(975)400-1809,58.0,Jakarta,Indonesia,8000.0,2023-09-16,IDR,632.0,
-U00241,Richard Hancock,joyce38@example.net,232.709.0932x1817,38.0,Guangzhou,China,5000.0,2023-09-12,CNY,627.0,
-U00242,Grace Nguyen,elizabeth39@example.net,380-891-8057x90260,30.0,Houston,USA,6000.0,2024-07-20,USD,550.0,
-U00243,Adam Rodriguez,jill38@example.org,607-293-0762x857,66.0,Jakarta,Indonesia,20000.0,2024-06-30,IDR,809.0,
-U00244,Colleen Thomas,dayjesus@example.net,+1-988-663-4567x56442,22.0,Houston,USA,3000.0,2023-07-20,USD,837.0,
-U00245,Cynthia Brown,john45@example.net,563.362.5020x3243,55.0,New York,USA,15000.0,2024-08-09,USD,644.0,
-U00246,Zachary Perez,smithamanda@example.org,(400)730-5889,29.0,Los Angeles,USA,5000.0,2023-07-28,USD,703.0,
-U00247,Kimberly Smith,efleming@example.org,226-918-4640,55.0,Bandung,Indonesia,10000.0,2023-01-01,IDR,817.0,
-U00248,Alexandra Mccarthy,amygraham@example.org,9043939337,22.0,Surabaya,Indonesia,4000.0,2023-11-09,IDR,785.0,
-U00249,Joseph Mathis,bradley35@example.com,978.599.3503,26.0,New York,USA,4000.0,2023-07-15,USD,771.0,
-U00250,John Chapman,kgreen@example.net,001-871-886-9027x23170,38.0,Houston,USA,10000.0,2024-05-06,USD,804.0,
-U00251,Olivia,oliviasc0814@gmail.com,,,,,2000.0,,CNY,,7177921952ae83c11335836d7a338956f6bf91698f0d1c774ab78be85801c0fd
+user_id,name,email,phone,age,location,country,monthly_income,created_date,preferred_currency,credit_score
+U00001,Rhonda Marks,whitehector@example.net,406.550.8380x947,60,Surabaya,Indonesia,15000,2024-09-13,IDR,820
+U00002,Christopher Hunter,susan66@example.org,+1-991-233-6455x99749,64,Los Angeles,USA,20000,2023-12-31,USD,570
+U00003,Larry Hughes,williamsvicki@example.com,478.956.2061,60,New York,USA,8000,2023-11-14,USD,764
+U00004,Tamara Figueroa,lday@example.net,001-543-729-0303x58834,32,Bandung,Indonesia,8000,2024-07-29,IDR,637
+U00005,Ricky Jones,alex23@example.org,+1-512-646-0763x60828,57,Phoenix,USA,10000,2023-03-19,USD,699
+U00006,Amy Thomas,riosbrian@example.com,+1-685-996-3716x95357,23,Houston,USA,6000,2024-04-20,USD,843
+U00007,Joshua Taylor,joshua26@example.com,001-277-516-9472x844,23,Houston,USA,6000,2022-12-19,USD,826
+U00008,John Robinson,omendoza@example.org,611-217-6299,54,Chicago,USA,15000,2024-08-11,USD,571
+U00009,Nathaniel Wade,byrdchristopher@example.net,677.812.0289,65,Bandung,Indonesia,6000,2023-09-05,IDR,598
+U00010,Jennifer Duran,zmartin@example.net,(452)487-5063x004,48,Los Angeles,USA,10000,2023-09-21,USD,719
+U00011,Christopher Larson,suzannereed@example.net,250-760-9741x227,49,Surabaya,Indonesia,15000,2023-04-23,IDR,820
+U00012,Isabella Barry MD,amberadams@example.com,(407)566-7486,68,Bandung,Indonesia,10000,2024-04-14,IDR,604
+U00013,Wanda Cabrera,lgordon@example.org,001-206-243-7883,24,Guangzhou,China,3000,2024-05-24,CNY,684
+U00014,Joe Reed,kathrynbooth@example.org,569-785-3156,42,Los Angeles,USA,5000,2024-06-26,USD,716
+U00015,Nancy Shaw,phillip60@example.net,733-986-1495x98392,39,Jakarta,Indonesia,10000,2024-06-06,IDR,638
+U00016,Roberto Small,erik31@example.com,870.581.2192x90195,35,Beijing,China,6000,2023-12-31,CNY,814
+U00017,Matthew Castillo,aruiz@example.net,994-821-0349x777,47,New York,USA,20000,2023-02-05,USD,641
+U00018,Briana Williamson,qfreeman@example.net,630-668-7259,68,New York,USA,15000,2024-10-23,USD,813
+U00019,Jon Phillips,michael47@example.com,001-489-773-8513x32993,68,Los Angeles,USA,10000,2023-09-15,USD,755
+U00020,Matthew Anderson,fordstephen@example.com,858.494.5478x5703,38,Houston,USA,10000,2024-08-08,USD,599
+U00021,Joseph Coleman,audreyevans@example.com,284.767.5106x9185,61,Houston,USA,15000,2024-05-06,USD,551
+U00022,Amy Moore,laurenbrooks@example.org,487-972-0712x62116,27,Guangzhou,China,4000,2023-02-07,CNY,655
+U00023,Michael Wilkins,kpatterson@example.com,+1-368-680-6257x6049,25,Jakarta,Indonesia,4000,2024-08-15,IDR,740
+U00024,Amanda Reed,pmitchell@example.com,(628)395-8754x7117,39,New York,USA,6000,2024-03-03,USD,593
+U00025,Sharon Salazar,icrawford@example.org,(914)769-4935,55,Guangzhou,China,8000,2023-10-03,CNY,819
+U00026,Nathaniel Long,kelseywiggins@example.com,(758)882-8878x352,52,Houston,USA,15000,2023-11-22,USD,739
+U00027,Jonathan Brennan,qcasey@example.org,(750)487-1630x51746,61,Bandung,Indonesia,20000,2024-04-05,IDR,757
+U00028,Jessica Garcia,rachel99@example.org,776-331-2902x23465,66,Surabaya,Indonesia,8000,2023-12-01,IDR,602
+U00029,Crystal Morrison,carolmartinez@example.org,001-844-374-7358,45,Bandung,Indonesia,8000,2024-10-18,IDR,766
+U00030,Amy Morales,lisa90@example.org,+1-783-470-7517x647,66,Guangzhou,China,6000,2024-11-17,CNY,706
+U00031,Jacob Wright,qdaugherty@example.org,001-570-257-5046x668,36,Beijing,China,5000,2024-11-19,CNY,614
+U00032,Molly Johnson,ymcdonald@example.net,+1-205-999-1724x47595,46,Houston,USA,6000,2024-11-02,USD,678
+U00033,Alicia Johnson MD,brandon60@example.net,(291)950-4317,65,Shanghai,China,10000,2023-04-10,CNY,630
+U00034,Cassandra Miller,lmyers@example.net,935.357.9451,29,Jakarta,Indonesia,5000,2024-03-03,IDR,838
+U00035,Monique Fitzgerald,dawn16@example.net,001-662-725-1668x439,26,Phoenix,USA,4000,2023-07-02,USD,780
+U00036,Timothy Roth,briansmith@example.com,+1-765-487-5580x558,62,New York,USA,15000,2023-08-27,USD,684
+U00037,Rachel Lopez,jonesroy@example.net,8087954115,30,Chicago,USA,10000,2024-09-18,USD,817
+U00038,Michael Lee,michael28@example.com,001-275-653-7026x619,55,Bandung,Indonesia,6000,2024-10-02,IDR,597
+U00039,Veronica Coleman,rothrichard@example.com,001-804-409-6072,44,Beijing,China,6000,2024-12-09,CNY,765
+U00040,Heather Bailey,mckenziedaniel@example.org,+1-469-238-3238x7667,58,Philadelphia,USA,10000,2024-10-26,USD,721
+U00041,Jeffrey Parsons,pamela60@example.net,966.727.8525x8570,61,Phoenix,USA,10000,2023-03-11,USD,584
+U00042,Kevin Larson,keith64@example.org,001-865-230-6997,22,Chicago,USA,5000,2023-09-11,USD,650
+U00043,Peter Garcia,amanda54@example.net,001-520-721-4049x69667,68,Houston,USA,10000,2024-04-17,USD,806
+U00044,Donna Hernandez,pprice@example.org,795-409-9177x09540,26,Philadelphia,USA,4000,2024-08-19,USD,804
+U00045,Jonathan Graves,mitchellmichelle@example.com,+1-810-201-7709x301,35,Los Angeles,USA,8000,2024-03-30,USD,832
+U00046,Abigail Thompson,joshua18@example.net,+1-756-253-2920x30382,30,Los Angeles,USA,8000,2024-02-18,USD,564
+U00047,Anthony Walters,arthurmartinez@example.net,923.671.6967,47,Beijing,China,8000,2024-02-19,CNY,728
+U00048,Susan Walton,devontaylor@example.org,+1-600-934-9092x10175,53,Los Angeles,USA,6000,2023-04-02,USD,601
+U00049,Robert Perez,mcneildanielle@example.org,001-234-909-9425x73560,53,Philadelphia,USA,15000,2023-10-06,USD,771
+U00050,Bridget Garner,epeters@example.com,910.392.5842x6625,58,Philadelphia,USA,20000,2023-04-25,USD,692
+U00051,Jessica Hernandez,slynch@example.com,001-451-749-5868x480,64,Jakarta,Indonesia,20000,2023-08-15,IDR,585
+U00052,Richard Martinez,erinvelasquez@example.org,001-293-998-1238x461,34,Phoenix,USA,10000,2024-05-24,USD,736
+U00053,Matthew Edwards,amy59@example.com,661.873.9955x48966,43,New York,USA,10000,2023-11-03,USD,615
+U00054,Brian Carrillo,vnguyen@example.net,001-795-544-1735x393,63,Bandung,Indonesia,20000,2024-05-04,IDR,611
+U00055,David Lowe,john30@example.net,788.732.9820x73393,27,Shanghai,China,6000,2023-03-02,CNY,577
+U00056,Jeff Hall,elizabethrussell@example.org,216.934.3526x7472,65,Guangzhou,China,15000,2023-08-05,CNY,835
+U00057,Erika Johnson,walkerjulie@example.com,001-704-226-9550x0871,32,Los Angeles,USA,10000,2024-11-23,USD,780
+U00058,Michael Barajas,mmitchell@example.com,+1-552-263-4758x953,54,Beijing,China,6000,2023-10-17,CNY,832
+U00059,Kyle Cross,sabbott@example.com,7367441518,34,Los Angeles,USA,5000,2024-02-21,USD,808
+U00060,Randy Wright,higginsstephen@example.net,001-641-978-0193x65868,60,Guangzhou,China,10000,2023-01-24,CNY,686
+U00061,Donald Reynolds,zjohnson@example.com,295-395-9829x2979,58,Phoenix,USA,6000,2024-09-21,USD,783
+U00062,Martin Green,angelavaughn@example.org,001-896-838-9143x4177,65,Surabaya,Indonesia,10000,2024-07-17,IDR,709
+U00063,Shelley Winters,michael30@example.com,452-374-9537x3612,53,Jakarta,Indonesia,6000,2024-11-21,IDR,729
+U00064,Ashley Klein,stephen38@example.com,6985565196,33,Philadelphia,USA,6000,2023-02-16,USD,844
+U00065,Kendra Alexander,raymondjimenez@example.com,001-580-859-1290x8541,23,Jakarta,Indonesia,5000,2023-01-09,IDR,662
+U00066,Sheila Hall,mary29@example.net,2259146280,58,Houston,USA,6000,2024-10-15,USD,630
+U00067,Deborah Nelson,josephthomas@example.net,001-595-518-1731x70296,23,Bandung,Indonesia,4000,2023-12-12,IDR,769
+U00068,Heather Moore,bware@example.org,001-435-410-6815x865,44,Los Angeles,USA,5000,2024-10-16,USD,773
+U00069,Jennifer Greene,ujohnson@example.org,+1-376-629-1335x74523,54,New York,USA,6000,2024-04-11,USD,675
+U00070,Connor Salas,gallowaysara@example.com,677.823.6071,23,Surabaya,Indonesia,3000,2024-08-30,IDR,721
+U00071,Richard Cook,bullockdana@example.org,+1-735-423-7824x10960,47,Houston,USA,15000,2024-02-09,USD,752
+U00072,Maria Norton,charlescalderon@example.org,001-911-796-6115,38,Phoenix,USA,8000,2024-02-09,USD,843
+U00073,Mrs. Debbie Fischer,foxtodd@example.net,606.267.5622,45,Los Angeles,USA,20000,2024-09-25,USD,647
+U00074,Jennifer Williams,ashley24@example.com,(282)959-2023x433,27,Houston,USA,4000,2023-10-04,USD,789
+U00075,Christina Rivera,matthewparrish@example.org,797-514-2082x5475,37,Los Angeles,USA,5000,2023-01-16,USD,750
+U00076,Ariel Brock,pateljamie@example.com,001-331-340-8516,27,Beijing,China,6000,2024-05-25,CNY,808
+U00077,Vanessa Anderson,reedbrian@example.org,+1-952-646-2320,41,Phoenix,USA,10000,2023-09-19,USD,696
+U00078,Ann Brown,daniel55@example.net,+1-754-868-7085x33278,41,Shanghai,China,10000,2023-07-26,CNY,748
+U00079,Janet Valdez,rmurray@example.org,+1-683-521-5000x80217,62,Surabaya,Indonesia,6000,2023-09-24,IDR,677
+U00080,Christina Lozano,fcook@example.com,+1-552-345-8258x6716,60,Philadelphia,USA,8000,2023-10-27,USD,678
+U00081,Richard Hart,bruce53@example.net,(415)690-8199,32,Chicago,USA,10000,2023-12-21,USD,700
+U00082,Janet Hood,michael44@example.org,(513)535-2384,52,Philadelphia,USA,8000,2023-02-22,USD,648
+U00083,Kurt Boyd,daniel54@example.com,831-677-1188,28,Philadelphia,USA,6000,2024-05-16,USD,693
+U00084,Charles Harrison,aprilberger@example.net,979.818.3671,47,Houston,USA,6000,2024-09-24,USD,609
+U00085,Joshua Armstrong,ccooper@example.com,213.870.7426,23,Surabaya,Indonesia,3000,2024-03-09,IDR,803
+U00086,Andrew Greene,cwang@example.com,+1-430-837-6721x28543,33,Phoenix,USA,5000,2024-02-08,USD,586
+U00087,Mrs. Karen Krueger,evelyn87@example.org,(253)797-6533,53,Bandung,Indonesia,10000,2023-08-07,IDR,558
+U00088,Tracy Clark,nmason@example.com,+1-828-684-8994x818,62,Surabaya,Indonesia,10000,2024-10-08,IDR,696
+U00089,Katherine Bass,hancockjennifer@example.net,215-215-9731,69,Surabaya,Indonesia,10000,2024-01-30,IDR,701
+U00090,Wayne Cruz,alexisparker@example.net,(959)484-0560,54,Los Angeles,USA,15000,2024-06-29,USD,624
+U00091,Christina Mathews,jessica86@example.com,+1-687-469-5637x007,29,Jakarta,Indonesia,6000,2023-02-20,IDR,653
+U00092,Robert Warren,mflores@example.org,001-340-454-7600x264,41,Surabaya,Indonesia,6000,2023-05-02,IDR,776
+U00093,Lisa Boyer,kwilcox@example.net,519-591-5212,69,Chicago,USA,6000,2023-12-09,USD,648
+U00094,Rachel Ruiz,rebeccaelliott@example.net,001-666-718-3888x658,46,Guangzhou,China,20000,2024-11-19,CNY,743
+U00095,Rebecca Holland,blackwellmarvin@example.com,001-713-382-5312x83533,56,Bandung,Indonesia,20000,2024-09-19,IDR,718
+U00096,Adrian Calhoun,ocraig@example.net,+1-324-314-6475x8990,57,Houston,USA,6000,2023-10-05,USD,617
+U00097,Jeffrey Perez,buchanansandra@example.org,+1-938-389-9359x4896,54,Chicago,USA,20000,2023-08-14,USD,684
+U00098,Jonathan Bray,jamesbowers@example.com,846.854.6966x00429,24,Shanghai,China,3000,2024-01-18,CNY,677
+U00099,Lisa Scott,mariebailey@example.com,759-985-3453x4137,54,Beijing,China,15000,2023-01-16,CNY,571
+U00100,Cynthia Cunningham,moyerkara@example.org,(523)888-1122x18197,67,Phoenix,USA,20000,2024-02-19,USD,600
+U00101,Paula Russo,nicoleblevins@example.net,+1-957-980-0512x767,29,Surabaya,Indonesia,5000,2023-01-19,IDR,576
+U00102,Nicole Perez,joan17@example.org,556.547.5268,55,Bandung,Indonesia,20000,2024-09-14,IDR,835
+U00103,Tina Alvarez,barryhardy@example.org,795.909.6500,54,Guangzhou,China,15000,2023-05-05,CNY,696
+U00104,Michelle Lawrence,jonathankelly@example.com,+1-664-839-7687,25,Houston,USA,5000,2024-06-13,USD,741
+U00105,Mary Turner,robertbrooks@example.org,(702)456-8295x22735,38,Surabaya,Indonesia,10000,2024-07-06,IDR,769
+U00106,Brittany Webb,alexmiller@example.net,613-218-0071x27672,51,Philadelphia,USA,20000,2024-01-10,USD,595
+U00107,John Welch,andrew90@example.org,313.979.5717x308,27,New York,USA,5000,2024-01-10,USD,782
+U00108,Jennifer Perez,shortjames@example.net,(838)460-6751x3039,58,Houston,USA,20000,2024-06-24,USD,730
+U00109,Jimmy Rose,jodycarney@example.org,(796)537-4860x607,52,New York,USA,10000,2024-05-06,USD,737
+U00110,Douglas Long,lynndarren@example.com,001-745-806-0356x37679,54,Philadelphia,USA,15000,2024-12-07,USD,740
+U00111,Jose Booth,vellis@example.com,334.866.2756,42,Beijing,China,10000,2024-02-26,CNY,710
+U00112,Gabrielle Taylor,susan01@example.com,237-318-9876x07950,24,Phoenix,USA,6000,2023-08-03,USD,567
+U00113,Wendy Cochran,abigailhart@example.org,001-427-997-3016x71016,46,Los Angeles,USA,8000,2023-11-22,USD,772
+U00114,Eric Burton PhD,harringtoncaitlin@example.com,802-619-5780,24,Houston,USA,6000,2023-10-16,USD,723
+U00115,Danielle Keller,ashleyjohnson@example.org,893-288-4096x034,45,Jakarta,Indonesia,8000,2024-11-20,IDR,837
+U00116,Steve Hill,stanleykimberly@example.net,+1-645-737-8502,68,Bandung,Indonesia,8000,2024-07-29,IDR,676
+U00117,Seth Howell,iowens@example.net,001-791-975-2415x4814,48,Philadelphia,USA,8000,2023-01-13,USD,822
+U00118,Don Smith,maria40@example.com,471.357.7644x7904,61,Houston,USA,6000,2022-12-25,USD,848
+U00119,Dillon Torres,sherriayers@example.com,622.935.0237x487,69,Surabaya,Indonesia,20000,2024-08-16,IDR,719
+U00120,Michael Reed,blaircatherine@example.net,(468)563-4107,47,Shanghai,China,10000,2024-08-10,CNY,562
+U00121,Julie Molina,igardner@example.com,(242)497-7131,28,Beijing,China,3000,2023-05-28,CNY,585
+U00122,Chris Kaiser,kaylabuchanan@example.net,(673)985-1838x5365,66,Surabaya,Indonesia,15000,2023-07-02,IDR,813
+U00123,Lisa Robles,monique85@example.org,287-615-8254,67,Shanghai,China,15000,2023-08-21,CNY,692
+U00124,Taylor Cox,jgrant@example.net,(535)344-1470x865,49,Chicago,USA,8000,2023-08-08,USD,837
+U00125,Erica Floyd,schmittjulia@example.net,418.836.3673,44,Phoenix,USA,8000,2024-08-02,USD,600
+U00126,Sydney Leonard,ccunningham@example.com,+1-709-823-2595,46,Chicago,USA,8000,2024-08-02,USD,612
+U00127,Elijah Esparza,jamesboone@example.org,001-284-594-9654x1336,43,Houston,USA,6000,2024-04-14,USD,607
+U00128,Rebecca Odom,barronleslie@example.net,827-676-9766x72704,43,Bandung,Indonesia,5000,2023-09-16,IDR,729
+U00129,Andrew Francis,mpierce@example.org,(536)225-9514x85593,63,Guangzhou,China,10000,2024-08-07,CNY,650
+U00130,Michael Flores,bradleywalker@example.net,001-956-880-8382x2864,54,Guangzhou,China,20000,2023-03-06,CNY,609
+U00131,Jade Chang,meghan63@example.net,201-792-2898x19837,65,Phoenix,USA,15000,2023-10-22,USD,554
+U00132,Michael Wong MD,wbell@example.com,303.589.0786x5161,60,Bandung,Indonesia,15000,2024-09-02,IDR,811
+U00133,Vanessa Young,vburke@example.com,985.828.3318x530,66,Jakarta,Indonesia,15000,2024-01-29,IDR,596
+U00134,Dillon Cole,mcfarlandandrew@example.net,(905)531-9949x86624,56,Beijing,China,15000,2023-03-16,CNY,693
+U00135,Matthew Miller,fmyers@example.net,+1-676-510-6775x483,34,Jakarta,Indonesia,6000,2023-08-23,IDR,673
+U00136,Andrew James,michaelmurphy@example.net,+1-513-665-7227x45566,63,Beijing,China,10000,2022-12-20,CNY,694
+U00137,Mary Payne,cmedina@example.org,649.885.8286x8089,40,Philadelphia,USA,10000,2024-03-21,USD,607
+U00138,Krista Walton,ochoabryan@example.org,+1-592-824-5865,47,Houston,USA,20000,2023-11-09,USD,666
+U00139,Kenneth Crane,gbyrd@example.com,+1-463-752-2942x55877,44,Chicago,USA,8000,2024-06-22,USD,678
+U00140,Michael Moore,bwallace@example.org,6777352445,22,Guangzhou,China,5000,2024-06-06,CNY,839
+U00141,William Duncan,danielmcdonald@example.com,933-284-8570x55596,53,Shanghai,China,6000,2024-10-16,CNY,786
+U00142,Randy Anderson,wooddean@example.net,475-612-4494x250,22,Los Angeles,USA,6000,2023-05-18,USD,738
+U00143,Lauren Wagner,franklinlucas@example.com,467.849.6426,60,New York,USA,20000,2024-05-23,USD,827
+U00144,Destiny Romero,marilyn47@example.com,(527)560-5104,50,Los Angeles,USA,10000,2023-06-22,USD,625
+U00145,Michael Sanders,juliewatkins@example.net,520-900-4096x76600,47,Chicago,USA,10000,2024-06-28,USD,635
+U00146,Jackson Moreno,walkerjacob@example.com,698.791.1580,50,Surabaya,Indonesia,15000,2023-04-09,IDR,618
+U00147,Linda Martinez,howardanderson@example.com,(719)408-8932,68,Chicago,USA,6000,2024-09-05,USD,643
+U00148,David Warner,ebrown@example.org,+1-698-927-8603,67,Surabaya,Indonesia,15000,2024-08-01,IDR,753
+U00149,Kaylee Turner,kathrynjackson@example.net,+1-532-935-3486x7176,37,Beijing,China,6000,2024-08-17,CNY,588
+U00150,Don Nolan,brian96@example.net,334.216.3099x42411,57,Jakarta,Indonesia,6000,2024-08-27,IDR,803
+U00151,Austin Francis,denise84@example.com,995.892.7112x73951,51,Los Angeles,USA,20000,2023-04-17,USD,572
+U00152,Adrienne Phillips,matthewcooper@example.org,4516293442,31,Beijing,China,6000,2023-08-02,CNY,649
+U00153,Debra Franco,hmacias@example.org,001-723-572-4796x522,55,Beijing,China,15000,2024-10-16,CNY,772
+U00154,Karen Rivera,zbaker@example.net,382.264.6670x756,31,Jakarta,Indonesia,6000,2024-06-04,IDR,696
+U00155,Christopher Nunez DVM,samuelmelendez@example.com,814-711-0881x6262,53,Shanghai,China,6000,2024-09-20,CNY,553
+U00156,Patrick Davenport,vanessa48@example.net,265-651-1783,37,Guangzhou,China,10000,2024-04-03,CNY,796
+U00157,Elizabeth Miller,cranejennifer@example.com,547.520.3427,23,Phoenix,USA,3000,2024-12-08,USD,709
+U00158,Anthony Griffith,graykristy@example.org,(556)731-4996x898,48,Guangzhou,China,15000,2024-03-20,CNY,701
+U00159,Andrew Richards,martinryan@example.net,735.959.9961,33,New York,USA,6000,2024-10-04,USD,712
+U00160,Kyle Kelly,villanuevastephen@example.com,001-706-255-2241x41525,54,Surabaya,Indonesia,6000,2023-08-04,IDR,728
+U00161,Mary Francis,pcarney@example.com,(585)669-6668,64,Bandung,Indonesia,20000,2023-12-29,IDR,817
+U00162,Jeremiah Schultz,rebeccasmith@example.net,+1-279-680-8537x52178,24,Los Angeles,USA,3000,2024-08-13,USD,717
+U00163,John Walker,john38@example.com,+1-704-444-5838,31,Surabaya,Indonesia,8000,2024-10-03,IDR,593
+U00164,Julian Russo,madisonromero@example.com,573.400.4150x9008,50,Guangzhou,China,20000,2024-07-02,CNY,561
+U00165,Bruce Stewart,ibates@example.net,352-413-6204,52,Phoenix,USA,8000,2024-07-07,USD,802
+U00166,Brian Clark,jennifercolon@example.org,807-265-4237,56,Surabaya,Indonesia,6000,2023-02-11,IDR,639
+U00167,Luis Robertson,pamelaschultz@example.net,001-273-891-7436x6451,29,Philadelphia,USA,3000,2024-04-25,USD,639
+U00168,Adriana Burns,jdavis@example.com,001-800-415-2568x068,55,Los Angeles,USA,10000,2023-07-17,USD,654
+U00169,Jill Tanner,rickystephens@example.com,+1-657-622-5482x39704,28,Phoenix,USA,6000,2023-02-23,USD,663
+U00170,Patricia Hendricks,sanderscynthia@example.net,+1-619-992-0634x17715,66,Beijing,China,10000,2024-10-07,CNY,766
+U00171,Denise Perez,henrygloria@example.com,(965)878-5764,42,Chicago,USA,5000,2024-03-10,USD,798
+U00172,Brian Ruiz,juan46@example.com,+1-539-518-4198x4255,57,Shanghai,China,8000,2024-11-14,CNY,741
+U00173,Jeremy Martin,cookjennifer@example.com,+1-546-574-6273x30576,56,New York,USA,6000,2024-08-01,USD,648
+U00174,Angela Jacobs,byu@example.org,(202)817-5954x4891,69,Bandung,Indonesia,15000,2024-04-28,IDR,645
+U00175,Ebony Foster,perrycody@example.com,001-323-946-8584x518,45,Bandung,Indonesia,20000,2024-08-04,IDR,817
+U00176,Meredith Scott,rwilson@example.net,239-688-3069,34,Phoenix,USA,8000,2024-03-02,USD,766
+U00177,Bradley Ford,michaelstevens@example.com,(718)701-7048x347,56,Guangzhou,China,6000,2023-12-06,CNY,835
+U00178,Melissa Miller,pamelaryan@example.net,4066789465,38,Chicago,USA,5000,2024-11-11,USD,611
+U00179,Brenda Mendez,julie88@example.net,001-985-995-9599x905,41,Guangzhou,China,10000,2023-08-09,CNY,766
+U00180,Michael Rogers,hwhite@example.net,+1-560-623-5203x72562,43,Los Angeles,USA,5000,2024-04-10,USD,736
+U00181,Sarah Martin,pachecojoseph@example.net,218-240-9565,40,Surabaya,Indonesia,5000,2024-10-03,IDR,649
+U00182,Albert Ray MD,sbrown@example.com,+1-611-749-2019x37201,33,Phoenix,USA,5000,2022-12-20,USD,782
+U00183,Mary Myers,john68@example.net,001-356-562-4163,40,Surabaya,Indonesia,10000,2023-11-03,IDR,814
+U00184,Jamie Dean,watkinsjohn@example.net,(295)537-3676,28,Guangzhou,China,6000,2023-04-10,CNY,755
+U00185,Justin Evans,donaldwalker@example.org,6805108760,52,Jakarta,Indonesia,15000,2024-04-28,IDR,693
+U00186,Raymond Burgess,michael99@example.com,292-517-2642,26,Houston,USA,5000,2023-12-22,USD,574
+U00187,Jesus Wilson,hjones@example.com,(851)202-3144,42,Chicago,USA,10000,2024-07-29,USD,602
+U00188,Kevin Hall,humphreygary@example.com,(759)868-7372,44,Philadelphia,USA,10000,2024-07-27,USD,606
+U00189,Michael Vaughn,zwalker@example.org,3918098145,60,Chicago,USA,20000,2023-11-04,USD,730
+U00190,Jeffrey Flores,nicholas77@example.net,826.250.2148x44260,63,Guangzhou,China,8000,2023-10-29,CNY,772
+U00191,Cynthia Ramirez,mcbridecrystal@example.com,2466992524,26,Guangzhou,China,5000,2024-04-10,CNY,764
+U00192,Alicia Newman,hgonzalez@example.org,(716)475-1400x7841,50,New York,USA,10000,2023-01-06,USD,695
+U00193,Mark Rojas,tfisher@example.com,766-359-3869x69669,68,Jakarta,Indonesia,15000,2023-06-25,IDR,558
+U00194,Kristy Mcclain,tayloramanda@example.org,(887)716-5442x60306,31,Philadelphia,USA,6000,2023-12-07,USD,802
+U00195,Michael Rogers,xporter@example.net,939-804-5803x571,59,Shanghai,China,20000,2023-06-13,CNY,717
+U00196,Donald Moore,coryhill@example.net,974-565-6105,63,New York,USA,6000,2024-10-15,USD,832
+U00197,Tracy Henderson,josephcook@example.net,9385103153,23,Los Angeles,USA,3000,2023-03-22,USD,578
+U00198,Gloria Sparks,mwatkins@example.net,(270)573-6987x3462,58,Philadelphia,USA,10000,2023-04-07,USD,685
+U00199,Madeline Leach,daniel99@example.com,3577009687,69,Phoenix,USA,20000,2024-01-11,USD,694
+U00200,Clarence Stokes,gbradshaw@example.org,510-611-9182,28,Houston,USA,3000,2023-04-22,USD,681
+U00201,Gabrielle Rogers,josephjohnson@example.org,888-216-2193,57,New York,USA,15000,2024-02-13,USD,824
+U00202,Stephanie Miller,vguerrero@example.org,239.418.3809x181,65,Houston,USA,10000,2024-07-12,USD,751
+U00203,Donna Douglas,aboone@example.org,(259)689-9800,47,Jakarta,Indonesia,10000,2023-01-04,IDR,588
+U00204,Kari Pitts,nmelendez@example.com,877.374.2750x978,24,Los Angeles,USA,3000,2023-09-13,USD,690
+U00205,Debra Paul,raymondsamantha@example.org,(305)580-9233x1807,49,Los Angeles,USA,8000,2024-04-14,USD,697
+U00206,Lauren Garrett,yanderson@example.net,648.439.6924,49,Bandung,Indonesia,20000,2023-05-02,IDR,550
+U00207,Brett Robinson,xsharp@example.org,(487)767-7546x394,24,Shanghai,China,3000,2023-03-19,CNY,739
+U00208,Dr. Christina Mercer,susan80@example.com,+1-763-295-7621x1304,46,Los Angeles,USA,6000,2024-07-20,USD,666
+U00209,Amber Francis,hayleytrevino@example.com,5718579158,27,Guangzhou,China,4000,2024-08-18,CNY,593
+U00210,Helen Hernandez,clintonadams@example.com,001-577-793-1445x2623,66,Chicago,USA,20000,2023-05-28,USD,698
+U00211,Ian Garcia,alicia50@example.net,547-593-1177,37,Chicago,USA,6000,2024-07-28,USD,762
+U00212,Rebecca Parker,timothygoodman@example.org,643.900.7522,32,Surabaya,Indonesia,10000,2023-04-26,IDR,778
+U00213,James Butler,jared44@example.com,720-841-6734x372,57,Shanghai,China,10000,2023-04-14,CNY,696
+U00214,Sheila Cisneros,fwillis@example.org,(441)356-6808,41,Guangzhou,China,5000,2024-04-30,CNY,596
+U00215,Jordan Johnson,tjoseph@example.org,(950)934-1658,62,Chicago,USA,6000,2023-03-11,USD,563
+U00216,Kevin Lucas,robinsoncharles@example.org,001-772-995-8430,36,Phoenix,USA,8000,2024-02-03,USD,550
+U00217,Joshua Banks,santanaroberto@example.com,001-393-497-3199x249,24,Guangzhou,China,6000,2024-06-02,CNY,561
+U00218,John Davis,michelle67@example.com,+1-803-824-5284x30478,31,Jakarta,Indonesia,10000,2024-09-22,IDR,821
+U00219,Gina Spencer,vicki52@example.org,(443)319-2126x3244,29,Beijing,China,4000,2023-03-01,CNY,705
+U00220,Sarah Jimenez,doylemelissa@example.org,261-504-0541,29,Houston,USA,4000,2024-09-15,USD,713
+U00221,Susan Mosley,oscar96@example.net,001-674-341-6278x30683,47,Guangzhou,China,8000,2024-07-31,CNY,727
+U00222,Douglas Farrell,jrobertson@example.net,(358)493-2437x3808,49,Bandung,Indonesia,15000,2023-05-12,IDR,590
+U00223,David Henderson,daviskristina@example.com,234-551-3024x8904,57,Bandung,Indonesia,10000,2024-01-16,IDR,694
+U00224,Jennifer Peterson,veronicanguyen@example.net,+1-921-228-1235,30,Houston,USA,5000,2023-01-10,USD,761
+U00225,Gavin Zamora,jennifer65@example.org,001-666-486-7592x13365,34,Bandung,Indonesia,10000,2023-09-18,IDR,789
+U00226,Kenneth Snyder,kentmatthew@example.com,832.962.0774x0290,50,Phoenix,USA,20000,2023-01-05,USD,595
+U00227,Stephen Clark,websterjames@example.com,587-864-8708,56,Beijing,China,20000,2023-09-02,CNY,631
+U00228,Jonathan Byrd,odiaz@example.com,246-532-7196x09617,26,Surabaya,Indonesia,5000,2024-01-09,IDR,559
+U00229,Sandra Baker,amyeverett@example.org,(430)499-3001,51,Surabaya,Indonesia,8000,2023-10-21,IDR,800
+U00230,Carrie Harrington,autumn45@example.net,331-668-0439,66,Philadelphia,USA,20000,2024-04-22,USD,668
+U00231,Duane Young,cmyers@example.org,001-894-223-3088,54,Shanghai,China,6000,2024-03-14,CNY,695
+U00232,Brittany Weaver,debrakramer@example.net,(795)348-9710x568,53,Guangzhou,China,6000,2023-01-02,CNY,816
+U00233,Chelsea Cox,pharvey@example.org,746.209.5193x82258,42,Shanghai,China,6000,2024-04-19,CNY,612
+U00234,Jennifer Massey,nicoledominguez@example.net,001-669-476-6602,46,Los Angeles,USA,10000,2023-09-22,USD,832
+U00235,Jillian Johnson,gilbertnicole@example.net,(372)853-8098x57268,34,Houston,USA,5000,2023-11-20,USD,647
+U00236,Sarah Fletcher,steven64@example.net,+1-775-398-3081,62,Houston,USA,10000,2023-08-25,USD,555
+U00237,Jessica Harmon,lstevens@example.org,(454)228-1647x2972,49,Los Angeles,USA,6000,2023-08-10,USD,746
+U00238,Julie Craig,vmercado@example.com,+1-249-968-5488x84374,52,Philadelphia,USA,20000,2023-08-02,USD,808
+U00239,Michelle Valencia,alison22@example.org,232.665.1776x8547,44,New York,USA,5000,2023-08-16,USD,602
+U00240,Jimmy Walsh,gordonedward@example.org,590-565-2380x89892,58,Jakarta,Indonesia,8000,2023-04-03,IDR,632
+U00241,Amber Smith,gibsonaustin@example.org,+1-643-841-6127x96548,38,Guangzhou,China,5000,2024-06-02,CNY,627
+U00242,Amy Parsons,james02@example.net,(694)808-5952,30,Houston,USA,6000,2024-05-08,USD,550
+U00243,Raymond Martin,lindseybailey@example.net,5353920676,66,Jakarta,Indonesia,20000,2023-01-03,IDR,809
+U00244,Michelle Morales MD,dfuller@example.org,671-429-1029x727,22,Houston,USA,3000,2024-04-30,USD,837
+U00245,John Wilkins,fowlerbrenda@example.net,+1-483-954-8379x70259,55,New York,USA,15000,2023-10-15,USD,644
+U00246,Scott Kelly,scott56@example.net,554.810.0907x3162,29,Los Angeles,USA,5000,2024-09-11,USD,703
+U00247,John Kelly,juankennedy@example.net,(829)949-9968x0947,55,Bandung,Indonesia,10000,2023-08-20,IDR,817
+U00248,Brooke Ramos,hermanjohn@example.com,001-539-846-5253x23121,22,Surabaya,Indonesia,4000,2024-07-06,IDR,785
+U00249,Lynn King,daniel13@example.org,(361)587-2790x8855,26,New York,USA,4000,2024-04-27,USD,771
+U00250,Ashley Warner,russell74@example.com,931-822-9670,38,Houston,USA,10000,2023-02-02,USD,804
