@@ -1,79 +1,146 @@
-# 💰 Smart Finance ML - Personal Finance Dashboard
+# Smart Finance Budgeting System 💜📊
 
-A modern, AI-powered personal finance management dashboard with multi-user support, fraud detection, budget recommendations, and financial forecasting.
+A modern **multi-user personal finance dashboard** with **budget insights**, **multi-currency support**, and **ML-based spending forecasting**.  
+Built with **Streamlit + SQLite + Prophet + Plotly** for an interactive and deployment-ready analytics experience.
 
-![Live Demo](https://smartfinancedashboard.streamlit.app/)
+🚀 **Live Demo:** https://smartfinancedashboard.streamlit.app/
 
-## ✨ Key Features
+---
+
+## ✨ What This Project Does
+
+Smart Finance helps users track spending, understand financial habits, and plan better through:
+- **Transaction tracking** with categories, merchants, and descriptions  
+- **Budget insights + health score** (0–100)  
+- **ML-based spending forecasting** (Prophet) with 30-day predictions + confidence intervals  
+- **Multi-user authentication** with bcrypt password hashing and user-level data isolation  
+- **Multi-currency support** (USD / IDR / CNY) using real-time exchange rates + offline fallback  
+
+---
+
+## 📌 Key Highlights
+✅ End-to-end data product (not only notebooks)  
+✅ Multi-user system with secure authentication  
+✅ Forecasting pipeline using Prophet  
+✅ Interactive analytics dashboard with Plotly charts  
+✅ Real-time API integration + caching/fallback logic  
+✅ Clean modular architecture
+
+## 🔥 Features
 
 ### 🎨 Modern UI/UX
-- **Premium glassmorphism design** with purple/magenta gradient theme
-- **Fully responsive** dashboard with dark mode
-- **Smooth animations** and transitions
-- **Interactive charts** powered by Plotly
+- Premium glassmorphism styling with purple/magenta theme
+- Fully responsive dashboard with dark mode
+- Smooth transitions and clean layout
+- Interactive Plotly charts
 
 ### 👥 Multi-User System
-- **Secure authentication** with bcrypt password hashing
-- **Individual user profiles** with personalized settings
-- **User-specific data isolation** - each user sees only their own transactions
-- **Preferred currency** selection (USD, IDR, CNY)
+- Secure login/register with **bcrypt password hashing**
+- Individual user profiles + preferred currency settings
+- **User data isolation** (each user only sees their own transactions)
+- Session-based authentication flow
 
-### 🤖 AI-Powered Features
-- **Fraud Detection** - ML model to detect suspicious transactions
-- **Budget Recommendations** - AI-generated personalized budget advice
-- **Spending Forecasting** - Prophet-based 30-day spending predictions
-- **Category Analysis** - Smart insights into spending patterns
+### 🤖 ML-Assisted Features
+#### 1) Spending Forecasting (Prophet)
+- Forecast horizon: **30 days**
+- Confidence bounds (upper/lower)
+- Interactive Plotly forecast chart
+
+#### 2) Budget Insights + Recommendations
+- Category-wise spending analysis
+- Top merchants insights
+- Spending-to-income ratio indicators
+- **Budget health score** (0–100) for behavioral finance tracking
 
 ### 💱 Currency Management
-- **Multi-currency support** (USD, IDR, CNY)
-- **Real-time exchange rates** with API integration
-- **Fallback rates** for offline operation
-- **Currency converter** with visual exchange rate matrix
+- Multi-currency support: **USD / IDR / CNY**
+- Real-time exchange rates using API integration
+- Exchange rate caching
+- Offline fallback rates for reliability
+- Currency converter + visual exchange rate matrix
 
-### 📊 Financial Analytics
-- **Transaction tracking** with categories and merchants
-- **Visual spending analysis** with interactive charts
-- **Monthly income tracking**
-- **Budget health scoring**
-- **Custom date range filtering**
+### 📊 Financial Analytics & Reporting
+- Transaction tracking with categories and merchants
+- Monthly income tracking
+- Custom date range filtering
+- Search, sort, and bulk delete
+- Reports with export-ready tables
+
+---
+
+## 🧠 ML / Analytics Details
+
+### Spending Forecasting (Prophet)
+The forecasting module uses time-series modeling to estimate future spending trends:
+- Uses historical daily spending values
+- Produces **30-day forecast** with confidence intervals
+- Visualized interactively in the dashboard
+
+### Budget Health Score
+A score from **0–100** calculated using spending-to-income patterns and category thresholds to help users quickly understand budget condition.
+
+---
+
+## 🏗️ System Architecture (High Level)
+
+- **Frontend/UI:** Streamlit + Plotly + Custom CSS
+- **Backend/Logic:** Modular Python services (budgeting, forecasting, currency, database)
+- **Database:** **SQLite** (lightweight and ideal for local/deployment demo)
+- **External Services:** Exchange rate API + fallback for offline operation
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- Streamlit (web dashboard)
+- Plotly (interactive visualization)
+- Custom CSS (glassmorphism UI)
+
+**Backend**
+- Python
+- pandas, NumPy
+- Prophet (forecasting)
+
+**Storage**
+- SQLite (transactions + users)
+- CSV / JSON (config + sample data)
+
+**Security**
+- bcrypt password hashing
+- session management
+- user-level data isolation
+
+---
 
 ## 📁 Project Structure
 
 ```
 smart-finance-ml/
 ├── dashboards/
-│   ├── streamlit_dashboard_multiuser.py  # Main dashboard application
-│   └── auth.py                           # Authentication module
+│ ├── streamlit_dashboard_multiuser.py # Main dashboard app
+│ └── auth.py # Authentication module
 ├── src/
-│   ├── budgeting/
-│   │   └── budget_recommender.py        # AI budget recommendations
-│   ├── currency/
-│   │   └── currency_converter.py        # Currency conversion logic
-│   ├── database/
-│   │   └── db_manager.py                # Database operations
-│   ├── data_generation/
-│   │   └── generate_data.py             # Sample data generator
-│   ├── forecasting/
-│   │   └── forecaster.py                # Prophet-based forecasting
-│   └── fraud_detection/
-│       └── fraud_detector.py            # ML fraud detection
+│ ├── budgeting/
+│ │ └── budget_recommender.py # Budget insights + scoring
+│ ├── currency/
+│ │ └── currency_converter.py # Currency conversion logic
+│ ├── database/
+│ │ └── db_manager.py # SQLite operations
+│ ├── data_generation/
+│ │ └── generate_data.py # Sample data generator
+│ └── forecasting/
+│ └── forecaster.py # Prophet-based forecasting
 ├── config/
-│   └── config.py                        # Configuration settings
+│ └── config.py # Configuration settings
 ├── data/
-│   ├── raw/                             # Raw transaction data
-│   ├── processed/                       # Processed datasets
-│   └── users/                           # User credentials
-├── models/                              # Trained ML models
-├── docs/                                # Documentation
-│   ├── FRAUD_DETECTION_GUIDE.md
-│   ├── MULTIUSER_GUIDE.md
-│   ├── QUICK_START.md
-│   ├── TROUBLESHOOTING.md
-│   └── USER_DATA_COLLECTION_GUIDE.md
-├── run_dashboard.bat                    # Windows launcher
-├── run_dashboard.sh                     # Linux/Mac launcher
-├── requirements.txt                     # Python dependencies
-└── README.md                            # This file
+│ ├── raw/
+│ ├── processed/
+│ └── users/
+├── models/ # Saved ML models (optional)
+├── docs/ # Documentation
+├── requirements.txt # Python dependencies
+└── README.md # This file
 ```
 
 ## 🛠️ Technology Stack
@@ -206,18 +273,26 @@ Features:
 - Offline fallback rates
 - Visual exchange rate matrix
 
-## 📝 Documentation
+🧩 Troubleshooting
+App is slow
+- Reduce dataset size
+- Cache exchange rate calls
+- Use st.cache_data for processed dataframes
 
-Detailed guides available in root directory:
+✅ Future Improvements
 
-- **[QUICK_START.md](QUICK_START.md)** - Get started in 5 minutes
-- **[MULTIUSER_GUIDE.md](MULTIUSER_GUIDE.md)** - Multi-user system documentation
-- **[FRAUD_DETECTION_GUIDE.md](FRAUD_DETECTION_GUIDE.md)** - Fraud detection details
-- **[USER_DATA_COLLECTION_GUIDE.md](USER_DATA_COLLECTION_GUIDE.md)** - Data privacy guide
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common issues and solutions
+- Add forecasting evaluation dashboard (MAE/MAPE/RMSE)
+- Add automated testing + CI/CD pipeline
+- Add model monitoring / drift detection for long-term stability
+- Add database migration path SQLite → PostgreSQL
+- Add export to CSV/Excel + automated monthly report PDF
+
+👩‍💻 Author
+Olivia Stefany Can
+LinkedIn: https://linkedin.com/in/oliviastefanycan
+GitHub: https://github.com/oliviastefany
 
 ## 📄 License
-
 This project is for educational and personal use.
 
 
