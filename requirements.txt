@@ -22,9 +22,7 @@ plotly==5.18.0
 dash==2.14.2
 dash-bootstrap-components==1.5.0
 
-# Airflow
-apache-airflow==2.8.0
-apache-airflow-providers-postgres==5.10.0
+
 
 # Utilities
 python-dotenv==1.0.0
