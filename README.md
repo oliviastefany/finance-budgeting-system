@@ -39,60 +39,6 @@ A modern, AI-powered personal finance management dashboard with multi-user suppo
 - **Budget health scoring**
 - **Custom date range filtering**
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone <repository-url>
-cd smart-finance-ml
-```
-
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the dashboard**
-```bash
-# Windows
-run_dashboard.bat
-
-# Linux/Mac
-chmod +x run_dashboard.sh
-./run_dashboard.sh
-```
-
-4. **Access the dashboard**
-Open your browser and go to:
-```
-http://localhost:8502
-```
-
-### First Time Setup
-
-1. **Register a new account**
-   - Click "Create new account"
-   - Fill in your details
-   - Set your preferred currency
-
-2. **Add your first transaction**
-   - Go to "Add Transaction" tab
-   - Enter transaction details
-   - Submit to save
-
-3. **Explore features**
-   - View analytics in "Overview" tab
-   - Get AI recommendations in "Budget Recommendations"
-   - Check fraud detection insights
-   - Use currency converter
-   - Export reports
-
 ## 📁 Project Structure
 
 ```
@@ -272,66 +218,10 @@ Detailed guides available in root directory:
 - **[USER_DATA_COLLECTION_GUIDE.md](USER_DATA_COLLECTION_GUIDE.md)** - Data privacy guide
 - **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common issues and solutions
 
-## 🐛 Troubleshooting
-
-### Dashboard won't start
-```bash
-# Check Python version
-python --version  # Should be 3.8+
-
-# Reinstall dependencies
-pip install -r requirements.txt --force-reinstall
-```
-
-### Can't login
-- Verify username/email is correct
-- Password is case-sensitive
-- Try creating a new account
-- Check `data/users/users.csv` exists
-
-### Currency converter not updating
-- Check internet connection
-- API might be down - fallback rates will be used
-- Check console for error messages
-
-### Transactions not showing
-- Verify you're logged in
-- Check date range filter
-- Ensure transactions were saved
-- Look in `data/raw/transactions.csv`
-
 ## 📄 License
 
 This project is for educational and personal use.
 
-## 🎯 Future Enhancements
-
-- [ ] Database migration (SQLite/PostgreSQL)
-- [ ] More currency support
-- [ ] Mobile app version
-- [ ] Advanced analytics dashboard
-- [ ] Export to PDF/Excel
-- [ ] Email notifications
-- [ ] Recurring transactions
-- [ ] Bill reminders
-- [ ] Goal tracking
-- [ ] Investment portfolio tracking
-
-## 💬 Support
-
-For issues or questions:
-- Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-- Review documentation files
-- Open an issue on GitHub
-
-## 🙏 Acknowledgments
-
-- **Streamlit** - Amazing web framework
-- **Plotly** - Beautiful charts
-- **Facebook Prophet** - Powerful forecasting
-- **ExchangeRate API** - Currency data
-
----
 
 **Made with ❤️ using Python, Streamlit, and AI**
 
