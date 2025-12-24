@@ -2,9 +2,7 @@
 
 A modern, AI-powered personal finance management dashboard with multi-user support, fraud detection, budget recommendations, and financial forecasting.
 
-![Dashboard Preview](https://img.shields.io/badge/Status-Production%20Ready-success)
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)
+![Live Demo](https://smartfinancedashboard.streamlit.app/)
 
 ## ✨ Key Features
 
