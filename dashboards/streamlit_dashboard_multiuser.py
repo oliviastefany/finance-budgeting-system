@@ -17,9 +17,14 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config.config import RAW_DATA_DIR, PROCESSED_DATA_DIR, MODEL_PATHS
 from src.currency.currency_converter import CurrencyConverter
 from src.budgeting.budget_recommender import BudgetRecommender
-from src.fraud_detection.fraud_detector import FraudDetector
+# from src.fraud_detection.fraud_detector import FraudDetector
 from src.forecasting.forecaster import SpendingForecaster
-
+try:
+    from src.fraud_detection.fraud_detector import FraudDetector
+    FRAUD_AVAILABLE = True
+except ModuleNotFoundError:
+    FRAUD_AVAILABLE = False
+    
 # Import authentication
 from auth import check_authentication, logout, get_current_user_id, get_current_user_email, AuthManager
 

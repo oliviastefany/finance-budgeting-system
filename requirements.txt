@@ -42,3 +42,5 @@ pytest-cov==4.1.0
 
 tensorflow==2.16.1
 pyod==2.0.5
+
+python-3.11
