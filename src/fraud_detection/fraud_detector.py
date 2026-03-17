@@ -7,7 +7,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.model_selection import train_test_split
 from pyod.models.iforest import IForest
-from pyod.models.auto_encoder import AutoEncoder
+from pyod.models.lof import LOF
 import joblib
 import sys
 import os
@@ -22,7 +22,7 @@ from config.config import RAW_DATA_DIR, PROCESSED_DATA_DIR, MODEL_PATHS, FRAUD_C
 class FraudDetector:
     def __init__(self):
         self.iforest_model = None
-        self.autoencoder_model = None
+        self.lof_model = None
         self.scaler = StandardScaler()
         self.label_encoders = {}
         self.feature_columns = []
@@ -140,12 +140,12 @@ class FraudDetector:
         )
         self.iforest_model.fit(X_train)
 
-        # 2. AutoEncoder
-        print("  Training AutoEncoder...")
-        self.autoencoder_model = AutoEncoder(
+        # 2. Local Outlier Factor
+        print("  Training Local Outlier Factor...")
+        self.lof_model = LOF(
             contamination=FRAUD_CONFIG['contamination']
         )
-        self.autoencoder_model.fit(X_train)
+        self.lof_model.fit(X_train)
 
         print("  Models trained successfully!")
 
@@ -161,21 +161,21 @@ class FraudDetector:
         iforest_pred = self.iforest_model.predict(X_test)
         iforest_scores = self.iforest_model.decision_function(X_test)
 
-        # AutoEncoder predictions
-        ae_pred = self.autoencoder_model.predict(X_test)
-        ae_scores = self.autoencoder_model.decision_function(X_test)
+        # Local Outlier Factor predictions
+        lof_pred = self.lof_model.predict(X_test)
+        lof_scores = self.lof_model.decision_function(X_test)
 
         # Ensemble: Average of both models' scores
-        ensemble_scores = (iforest_scores + ae_scores) / 2
+        ensemble_scores = (iforest_scores + lof_scores) / 2
         ensemble_pred = (ensemble_scores > 0).astype(int)
 
         print("\n  === Isolation Forest Results ===")
         print(classification_report(y_test, iforest_pred, target_names=['Normal', 'Fraud']))
         print(f"  ROC-AUC Score: {roc_auc_score(y_test, iforest_scores):.4f}")
 
-        print("\n  === AutoEncoder Results ===")
-        print(classification_report(y_test, ae_pred, target_names=['Normal', 'Fraud']))
-        print(f"  ROC-AUC Score: {roc_auc_score(y_test, ae_scores):.4f}")
+        print("\n  === Local Outlier Factor Results ===")
+        print(classification_report(y_test, lof_pred, target_names=['Normal', 'Fraud']))
+        print(f"  ROC-AUC Score: {roc_auc_score(y_test, lof_scores):.4f}")
 
         print("\n  === Ensemble Results ===")
         print(classification_report(y_test, ensemble_pred, target_names=['Normal', 'Fraud']))
@@ -189,7 +189,7 @@ class FraudDetector:
 
         return {
             'iforest_scores': iforest_scores,
-            'ae_scores': ae_scores,
+            'lof_scores': lof_scores,
             'ensemble_scores': ensemble_scores
         }
 
@@ -199,10 +199,10 @@ class FraudDetector:
 
         # Get scores from both models
         iforest_scores = self.iforest_model.decision_function(X_scaled)
-        ae_scores = self.autoencoder_model.decision_function(X_scaled)
+        lof_scores = self.lof_model.decision_function(X_scaled)
 
         # Ensemble score
-        ensemble_scores = (iforest_scores + ae_scores) / 2
+        ensemble_scores = (iforest_scores + lof_scores) / 2
 
         # Predictions (1 = fraud, 0 = normal)
         predictions = (ensemble_scores > 0).astype(int)
@@ -218,7 +218,7 @@ class FraudDetector:
 
         model_data = {
             'iforest_model': self.iforest_model,
-            'autoencoder_model': self.autoencoder_model,
+            'lof_model': self.lof_model,
             'scaler': self.scaler,
             'label_encoders': self.label_encoders,
             'feature_columns': self.feature_columns
@@ -231,7 +231,7 @@ class FraudDetector:
         """Load trained models"""
         model_data = joblib.load(MODEL_PATHS['fraud_detector'])
         self.iforest_model = model_data['iforest_model']
-        self.autoencoder_model = model_data['autoencoder_model']
+        self.lof_model = model_data['lof_model']
         self.scaler = model_data['scaler']
         self.label_encoders = model_data['label_encoders']
         self.feature_columns = model_data['feature_columns']
