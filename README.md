@@ -3,7 +3,7 @@
 A modern **multi-user personal finance dashboard** with **budget insights**, **multi-currency support**, and **ML-based spending forecasting**.  
 Built with **Streamlit + SQLite + Prophet + Plotly** for an interactive and deployment-ready analytics experience.
 
-🚀 **Live Demo:** https://smartfinancedashboard.streamlit.app/
+🚀 **Live Demo:** https://finance-budgeting-system.streamlit.app/
 
 ---
 
