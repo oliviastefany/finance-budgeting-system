@@ -16,7 +16,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config.config import RAW_DATA_DIR, PROCESSED_DATA_DIR, MODEL_PATHS
 from src.currency.currency_converter import CurrencyConverter
 from src.budgeting.budget_recommender import BudgetRecommender
-from src.fraud_detection.fraud_detector import FraudDetector
+from src.fraud_detection.fraud_detector import ctor
 from src.forecasting.forecaster import SpendingForecaster
 
 # Page configuration

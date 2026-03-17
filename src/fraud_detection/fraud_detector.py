@@ -19,7 +19,7 @@ sys.path.insert(0, project_root)
 from config.config import RAW_DATA_DIR, PROCESSED_DATA_DIR, MODEL_PATHS, FRAUD_CONFIG
 
 
-class FraudDetector:
+class ctor:
     def __init__(self):
         self.iforest_model = None
         self.lof_model = None
@@ -277,5 +277,5 @@ class FraudDetector:
 
 
 if __name__ == "__main__":
-    detector = FraudDetector()
+    detector = ctor()
     df_processed = detector.train_and_save()

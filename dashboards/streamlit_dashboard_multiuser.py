@@ -19,10 +19,11 @@ from src.currency.currency_converter import CurrencyConverter
 from src.budgeting.budget_recommender import BudgetRecommender
 # from src.fraud_detection.fraud_detector import FraudDetector
 from src.forecasting.forecaster import SpendingForecaster
+
 try:
     from src.fraud_detection.fraud_detector import FraudDetector
     FRAUD_AVAILABLE = True
-except ModuleNotFoundError:
+except (ModuleNotFoundError, ImportError):
     FRAUD_AVAILABLE = False
     
 # Import authentication
