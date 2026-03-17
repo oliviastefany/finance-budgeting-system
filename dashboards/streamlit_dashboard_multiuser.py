@@ -27,7 +27,7 @@ except (ModuleNotFoundError, ImportError):
     FRAUD_AVAILABLE = False
     
 # Import authentication
-from auth import check_authentication, logout, get_current_user_id, get_current_user_email, AuthManager
+from auth import check_authentication, logout, get_current_user_id, AuthManager
 
 # Page configuration
 st.set_page_config(
@@ -45,7 +45,26 @@ st.markdown("""
         font-weight: bold;
         color: #1f77b4;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .user-card {
+        background-color: #f0f2f6;
+        border-radius: 10px;
+        padding: 10px 16px;
+        border-left: 4px solid #1f77b4;
+        font-size: 13px;
+        line-height: 1.8;
+    }
+    .user-card .label {
+        color: #888;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .user-card .value {
+        font-weight: 600;
+        color: #222;
     }
     .metric-card {
         background-color: #f0f2f6;
@@ -93,12 +112,15 @@ def load_data():
     transactions_df = pd.read_csv(RAW_DATA_DIR / 'transactions.csv')
     transactions_df['transaction_date'] = pd.to_datetime(transactions_df['transaction_date'])
 
-    # Load fraud scores if available
+    # Merge fraud scores if available (keep transactions.csv as source of truth)
     fraud_file = PROCESSED_DATA_DIR / 'transactions_with_fraud_scores.csv'
     if fraud_file.exists():
         fraud_df = pd.read_csv(fraud_file)
-        fraud_df['transaction_date'] = pd.to_datetime(fraud_df['transaction_date'])
-        return users_df, fraud_df
+        fraud_cols = [c for c in fraud_df.columns if c not in transactions_df.columns]
+        if fraud_cols and 'transaction_id' in fraud_df.columns:
+            transactions_df = transactions_df.merge(
+                fraud_df[['transaction_id'] + fraud_cols], on='transaction_id', how='left'
+            )
 
     return users_df, transactions_df
 
@@ -137,17 +159,16 @@ def add_transaction(user_id, category, merchant, amount, currency, description="
 def main():
     # Get current user
     user_id = get_current_user_id()
-    user_email = get_current_user_email()
 
     # Header with logout
-    col1, col2, col3 = st.columns([2, 3, 1])
-    with col1:
+    col_title, col_logout = st.columns([9, 1])
+    with col_title:
         st.markdown('<h1 class="main-header">💰 Smart Finance</h1>', unsafe_allow_html=True)
-    with col2:
-        st.markdown(f"<p style='text-align: center; padding-top: 20px;'>Welcome, {user_email}</p>", unsafe_allow_html=True)
-    with col3:
+    with col_logout:
+        st.markdown("<div style='padding-top: 18px;'>", unsafe_allow_html=True)
         if st.button("Logout", type="primary"):
             logout()
+        st.markdown("</div>", unsafe_allow_html=True)
 
     # Load data
     try:
@@ -168,11 +189,13 @@ def main():
     st.sidebar.title("⚙️ Settings")
 
     # Display user info
-    st.sidebar.info(f"""
-    **User:** {user_info['name']}
-    **Email:** {user_info['email']}
-    **Income:** {user_info['preferred_currency']} {user_info['monthly_income']:,.2f}
-    """)
+    st.sidebar.markdown(f"""
+<div class="user-card">
+    <div><span class="label">Name</span><br><span class="value">{user_info['name']}</span></div>
+    <div style="margin-top:6px"><span class="label">Email</span><br><span class="value">{user_info['email']}</span></div>
+    <div style="margin-top:6px"><span class="label">Monthly Income</span><br><span class="value">{user_info['preferred_currency']} {user_info['monthly_income']:,.2f}</span></div>
+</div>
+""", unsafe_allow_html=True)
 
     # Currency selection
     currency = st.sidebar.selectbox(
@@ -316,6 +339,9 @@ def main():
     with tab2:
         st.subheader("➕ Add New Transaction")
 
+        if st.session_state.pop('transaction_just_added', False):
+            st.success("✅ Transaction added successfully!")
+
         with st.form("add_transaction_form"):
             col1, col2 = st.columns(2)
 
@@ -341,10 +367,8 @@ def main():
                 else:
                     success = add_transaction(user_id, category, merchant, amount, trans_currency, description)
                     if success:
-                        st.success("✅ Transaction added successfully!")
-                        st.balloons()
-                        # Suggest to refresh
-                        st.info("Go to Overview tab to see your updated data!")
+                        st.session_state.transaction_just_added = True
+                        st.rerun()
 
     # TAB 3: Budget Recommendations
     with tab3:
