@@ -21,7 +21,7 @@ from src.forecasting.forecaster import SpendingForecaster
 
 # Page configuration
 st.set_page_config(
-    page_title="Smart Finance Dashboard",
+    page_title="Smart Budgeting System",
     page_icon="💰",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -90,7 +90,7 @@ def load_data():
 
 def main():
     # Header
-    st.markdown('<h1 class="main-header">💰 Smart Finance Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">💰 Smart Budgeting System </h1>', unsafe_allow_html=True)
     
     # Load data
     try:

@@ -18,7 +18,11 @@ from config.config import RAW_DATA_DIR, PROCESSED_DATA_DIR, MODEL_PATHS
 from src.currency.currency_converter import CurrencyConverter
 from src.budgeting.budget_recommender import BudgetRecommender
 # from src.fraud_detection.fraud_detector import FraudDetector
-from src.forecasting.forecaster import SpendingForecaster
+try:
+    from src.forecasting.forecaster import SpendingForecaster
+    FORECAST_AVAILABLE = True
+except (ModuleNotFoundError, ImportError):
+    FORECAST_AVAILABLE = False
 
 try:
     from src.fraud_detection.fraud_detector import FraudDetector
@@ -31,7 +35,7 @@ from auth import check_authentication, logout, get_current_user_id, AuthManager
 
 # Page configuration
 st.set_page_config(
-    page_title="Smart Finance Dashboard",
+    page_title="Smart Budgeting System",
     page_icon="💰",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -163,7 +167,7 @@ def main():
     # Header with logout
     col_title, col_logout = st.columns([9, 1])
     with col_title:
-        st.markdown('<h1 class="main-header">💰 Smart Finance</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 class="main-header">💰 Smart Budgeting System </h1>', unsafe_allow_html=True)
     with col_logout:
         st.markdown("<div style='padding-top: 18px;'>", unsafe_allow_html=True)
         if st.button("Logout", type="primary"):

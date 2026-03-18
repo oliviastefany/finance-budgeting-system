@@ -115,7 +115,7 @@ class AuthManager:
 
 def show_login_page():
     """Display login page"""
-    st.markdown('<h1 class="main-header">💰 Smart Finance - Login</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">💰 Smart Budgeting System - Login</h1>', unsafe_allow_html=True)
 
     tab1, tab2 = st.tabs(["Login", "Register"])
 
