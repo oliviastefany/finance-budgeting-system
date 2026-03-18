@@ -83,10 +83,13 @@ st.markdown("""
         border-left: 5px solid #ffc107;
     }
     .success-box {
-        background-color: #d4edda;
-        padding: 15px;
-        border-radius: 5px;
-        border-left: 5px solid #28a745;
+        background-color: #e8f5e9;
+        padding: 14px 18px;
+        border-radius: 8px;
+        border-left: 5px solid #2e7d32;
+        color: #1b5e20;
+        font-size: 14px;
+        margin-bottom: 8px;
     }
     .alert-box {
         background-color: #f8d7da;
