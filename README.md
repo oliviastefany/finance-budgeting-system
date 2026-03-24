@@ -2,6 +2,9 @@
 
 An intelligent personal finance tracking and budgeting system with ML-powered fraud detection, spending forecasting, and personalized budget recommendations using the 50/30/20 rule.
 
+
+✅ Live demo : https://finance-budgeting-system.streamlit.app/
+
 ---
 
 ## 🎯 What This System Does
